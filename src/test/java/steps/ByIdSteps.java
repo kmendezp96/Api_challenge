@@ -41,10 +41,9 @@ public class ByIdSteps {
 
     }
 
-
-    @Then("^the system response  a with \"([^\"]*)\" status code$")
-    public void theSystemResponseAWithStatusCode(int expectedHttpResponseCode) {
+    @Then("^the system response with an \"([^\"]*)\" status code$")
+    public void theSystemResponseWithAnStatusCode(int expectedHttpResponseCode){
+        // Write code here that turns the phrase above into concrete actions
         response.then().assertThat().statusCode(expectedHttpResponseCode);
-
     }
 }

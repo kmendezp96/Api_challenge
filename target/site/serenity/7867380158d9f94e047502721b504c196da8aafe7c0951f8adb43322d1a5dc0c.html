@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title></title>
+    <title>Filter songs by id - positive</title>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -55,8 +55,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > <a href="36cab49669d4201fdf03451ae4f15b4715ba710d4dbeeb2294a9e2d5776d60c9.html">Songs By Genre</a>
-        > 
+        > Filter songs by id - positive
         </span>
         </div>
         <div class="rightbg"></div>
@@ -77,7 +76,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-08-2018 08:22</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-08-2018 08:24</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -92,13 +91,13 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Songs By Genre </span>
+                                    <span class="story-header-title">Songs By Id</span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
                                 As a User
-I want to filter songs by its genre
-so that i can know the songs that belongs to a specific genre
+I want to filter a song by it's id
+so that i can search an specific song
                                 </div>
                             </div>
 
@@ -115,7 +114,7 @@ so that i can know the songs that belongs to a specific genre
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    
+                                    Filter songs by id - positive
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -131,7 +130,7 @@ so that i can know the songs that belongs to a specific genre
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given I want to see the songs of a genre<br>When I make a REST request to see the songs of a "&lt;genre&gt;"<br>Then the system response with "200" status code<br>And the system returns one json with all the songs of that genre</div>
+        <div class="scenario">Given I want to see a song with an specific id<br>When I go to /song/"&lt;id&gt;"<br>Then the system response with an "200" status code<br>Then I see a json with the specified song</div>
 
     </div>
 
@@ -144,18 +143,23 @@ so that i can know the songs that belongs to a specific genre
                 <thead>
                 <tr>
                     <th>#</th>
-                        <th>Genre</th>
+                        <th>Id</th>
                 </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="test-SUCCESS"><a href="#0">1</a></td>
-                            <td class="test-SUCCESS"><a href="#0">Punk</a>
+                            <td class="test-SUCCESS"><a href="#0">1</a>
                             </td>
                     </tr>
                     <tr>
                         <td class="test-SUCCESS"><a href="#1">2</a></td>
-                            <td class="test-SUCCESS"><a href="#1">Hip Hop</a>
+                            <td class="test-SUCCESS"><a href="#1">4</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#2">3</a></td>
+                            <td class="test-SUCCESS"><a href="#2">12</a>
                             </td>
                     </tr>
                 </tbody>
@@ -192,14 +196,14 @@ so that i can know the songs that belongs to a specific genre
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                #1: {genre=Punk}
+                                Filter songs by id - positive #1: {id=1}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">6.56s</span></td>
+                    <td width="100"><span class="top-level-step">5.83s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -214,7 +218,7 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given I want to see the songs of a genre
+                                Given I want to see a song with an specific id
                             </span>
 
                         </div>
@@ -231,13 +235,13 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When I make a REST request to see the songs of a "Punk"
+                                When I go to /song/"1"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.8s</span></td>
+                    <td width="100"><span class="nested-step">1.89s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -248,7 +252,7 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/charts/genre/Punk
+                                GET http://localhost:7070/kafka-music/song/1
                             </span>
 
                                 <span class="rest-query">
@@ -268,7 +272,7 @@ so that i can know the songs that belongs to a specific genre
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/charts/genre/Punk
+                                GET http://localhost:7070/kafka-music/song/1
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -281,9 +285,9 @@ so that i can know the songs that belongs to a specific genre
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 13:22:13 GMT<br>Content-Type: application/json<br>Content-Length: 471<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 13:24:19 GMT<br>Content-Type: application/json<br>Content-Length: 97<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>[<br>    {<br>        &quot;artist&quot;: &quot;Wheres The Pope?&quot;,<br>        &quot;album&quot;: &quot;PSI&quot;,<br>        &quot;name&quot;: &quot;Fear Of God&quot;,<br>        &quot;plays&quot;: 194<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Anti-Nowhere League&quot;,<br>        &quot;album&quot;: &quot;We Are the League&quot;,<br>        &quot;name&quot;: &quot;Animal&quot;,<br>        &quot;plays&quot;: 185<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Jello Biafra And The Guantanamo School Of Medicine&quot;,<br>        &quot;album&quot;: &quot;The Audacity Of Hype&quot;,<br>        &quot;name&quot;: &quot;Three Strikes&quot;,<br>        &quot;plays&quot;: 182<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Subhumans&quot;,<br>        &quot;album&quot;: &quot;Live In A Dive&quot;,<br>        &quot;name&quot;: &quot;All Gone Dead&quot;,<br>        &quot;plays&quot;: 178<br>    },<br>    {<br>        &quot;artist&quot;: &quot;The Exploited&quot;,<br>        &quot;album&quot;: &quot;Totally Exploited&quot;,<br>        &quot;name&quot;: &quot;Punks Not Dead&quot;,<br>        &quot;plays&quot;: 177<br>    }<br>]</pre>
+                                    <pre>{<br>    &quot;artist&quot;: &quot;Dead Kennedys&quot;,<br>    &quot;album&quot;: &quot;Fresh Fruit For Rotting Vegetables&quot;,<br>    &quot;name&quot;: &quot;Chemical Warfare&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -312,13 +316,13 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then the system response with "200" status code
+                                Then the system response with an "200" status code
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.05s</span></td>
+                    <td width="100"><span class="nested-group-step">0.04s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -329,13 +333,13 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And the system returns one json with all the songs of that genre
+                                Then I see a json with the specified song
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.87s</span></td>
+                    <td width="100"><span class="nested-group-step">0.06s</span></td>
                 </tr>
 
                     </table>
@@ -355,14 +359,14 @@ so that i can know the songs that belongs to a specific genre
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
                             <span class="top-level-step">
-                                #2: {genre=Hip Hop}
+                                Filter songs by id - positive #2: {id=4}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.1s</span></td>
+                    <td width="100"><span class="top-level-step">0.07s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -377,13 +381,13 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given I want to see the songs of a genre
+                                Given I want to see a song with an specific id
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -394,13 +398,13 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When I make a REST request to see the songs of a "Hip Hop"
+                                When I go to /song/"4"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.06s</span></td>
+                    <td width="100"><span class="nested-step">0.07s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -411,7 +415,7 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/charts/genre/Hip%20Hop
+                                GET http://localhost:7070/kafka-music/song/4
                             </span>
 
                                 <span class="rest-query">
@@ -431,7 +435,7 @@ so that i can know the songs that belongs to a specific genre
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/charts/genre/Hip%20Hop
+                                GET http://localhost:7070/kafka-music/song/4
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -444,9 +448,9 @@ so that i can know the songs that belongs to a specific genre
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 13:22:14 GMT<br>Content-Type: application/json<br>Content-Length: 452<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 13:24:20 GMT<br>Content-Type: application/json<br>Content-Length: 64<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>[<br>    {<br>        &quot;artist&quot;: &quot;De La Soul&quot;,<br>        &quot;album&quot;: &quot;De La Soul Is Dead&quot;,<br>        &quot;name&quot;: &quot;Oodles Of O's&quot;,<br>        &quot;plays&quot;: 191<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Public Enemy&quot;,<br>        &quot;album&quot;: &quot;Fear Of A Black Planet&quot;,<br>        &quot;name&quot;: &quot;911 Is A Joke&quot;,<br>        &quot;plays&quot;: 190<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Hilltop Hoods&quot;,<br>        &quot;album&quot;: &quot;The Calling&quot;,<br>        &quot;name&quot;: &quot;The Calling&quot;,<br>        &quot;plays&quot;: 189<br>    },<br>    {<br>        &quot;artist&quot;: &quot;N.W.A&quot;,<br>        &quot;album&quot;: &quot;Straight Outta Compton&quot;,<br>        &quot;name&quot;: &quot;Gangsta Gangsta&quot;,<br>        &quot;plays&quot;: 187<br>    },<br>    {<br>        &quot;artist&quot;: &quot;The Beastie Boys&quot;,<br>        &quot;album&quot;: &quot;Licensed to Ill&quot;,<br>        &quot;name&quot;: &quot;Fight For Your Right&quot;,<br>        &quot;plays&quot;: 186<br>    }<br>]</pre>
+                                    <pre>{<br>    &quot;artist&quot;: &quot;Wheres The Pope?&quot;,<br>    &quot;album&quot;: &quot;PSI&quot;,<br>    &quot;name&quot;: &quot;Fear Of God&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -475,7 +479,7 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then the system response with "200" status code
+                                Then the system response with an "200" status code
                             </span>
 
                         </div>
@@ -492,13 +496,13 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And the system returns one json with all the songs of that genre
+                                Then I see a json with the specified song
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.02s</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                     </table>
@@ -507,46 +511,29 @@ so that i can know the songs that belongs to a specific genre
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="2"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">
-                                Given I want to see the songs of a genre
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="3"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
                     <td>
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block;">
                             <span class="top-level-step">
-                                When I make a REST request to see the songs of an invalid "rock" genre
+                                Filter songs by id - positive #3: {id=12}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.46s</span></td>
+                    <td width="100"><span class="top-level-step">0.07s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
-                    <table id="stepSection3" style="display:none; width:100%">
+                    <table id="stepSection2" style="display:none; width:100%">
 
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -557,18 +544,52 @@ so that i can know the songs that belongs to a specific genre
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/charts/genre/rock
+                                Given I want to see a song with an specific id
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                When I go to /song/"12"
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.06s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET http://localhost:7070/kafka-music/song/12
                             </span>
 
                                 <span class="rest-query">
                 <span>
                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-15">
+                            data-target="#restModal-16">
                         REST Query
                     </button>
                 </span>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-15" tabindex="-1" role="dialog"
+                <div class="modal fade" id="restModal-16" tabindex="-1" role="dialog"
                      aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -577,11 +598,11 @@ so that i can know the songs that belongs to a specific genre
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/charts/genre/rock
+                                GET http://localhost:7070/kafka-music/song/12
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 404</p>
+                                    <p>Status code: 200</p>
                                     <p>Content Type: application/json</p>
                                     <h5>Request Headers</h5>
                                     <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
@@ -590,9 +611,9 @@ so that i can know the songs that belongs to a specific genre
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 13:22:16 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 307<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 13:24:20 GMT<br>Content-Type: application/json<br>Content-Length: 69<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/charts/genre/rock. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                    <pre>{<br>    &quot;artist&quot;: &quot;Hilltop Hoods&quot;,<br>    &quot;album&quot;: &quot;The Calling&quot;,<br>    &quot;name&quot;: &quot;The Calling&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -612,30 +633,48 @@ so that i can know the songs that belongs to a specific genre
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
-                    </table>
-                    </td>
-                    <tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
-                        <a name="4"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">
-                                Then the system response with "404" status code
+                            <span class="nested-group-step">
+                                Then the system response with an "200" status code
                             </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Then I see a json with the specified song
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>9.14s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>8.12s</em></span></td>
                 </tr>
 
             </table>

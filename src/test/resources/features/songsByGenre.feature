@@ -3,7 +3,7 @@ Feature: Songs by genre
   I want to filter songs by its genre
   so that i can know the songs that belongs to a specific genre
 
-  Scenario Outline:
+  Scenario Outline: filter songs by genre - positive
     Given I want to see the songs of a genre
     When I make a REST request to see the songs of a "<genre>"
     Then the system response with "200" status code
@@ -13,7 +13,7 @@ Feature: Songs by genre
     | Punk      |
     | Hip Hop   |
 
-  Scenario:
+  Scenario: filter songs by genre - negative
     Given I want to see the songs of a genre
     When I make a REST request to see the songs of an invalid "rock" genre
     Then the system response with "404" status code

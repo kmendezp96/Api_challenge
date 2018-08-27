@@ -3,7 +3,8 @@ Feature: Top five songs
   I want to see the top five songs
   so that i can know the five more listened songs
 
-  Scenario:
-    Given There are at least five songs
+  Scenario: See the top five more listened songs
+    Given I want to see the top five songs
     When I go to /charts/top-five
-    Then I see the five more listen songs
+    Then I see the list of five more listen songs
+    And the system response a "200" status code

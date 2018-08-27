@@ -76,7 +76,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2018 17:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-08-2018 08:22</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -111,9 +111,9 @@ so that i can search an specific song
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="error-color">
+                                    <span class="success-color">
                                     
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -130,7 +130,7 @@ so that i can search an specific song
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given I want to see a song with an specific id<br>When I go to /song/"&lt;id&gt;"<br>Then the system response with "200" status code<br>And I see a json with the specified song</div>
+        <div class="scenario">Given I want to see a song with an specific id<br>When I go to /song/"&lt;id&gt;"<br>Then the system response with an "200" status code<br>Then I see a json with the specified song</div>
 
     </div>
 
@@ -148,18 +148,18 @@ so that i can search an specific song
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="test-ERROR"><a href="#0">1</a></td>
-                            <td class="test-ERROR"><a href="#0">1</a>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">1</a>
                             </td>
                     </tr>
                     <tr>
-                        <td class="test-ERROR"><a href="#1">2</a></td>
-                            <td class="test-ERROR"><a href="#1">4</a>
+                        <td class="test-SUCCESS"><a href="#1">2</a></td>
+                            <td class="test-SUCCESS"><a href="#1">4</a>
                             </td>
                     </tr>
                     <tr>
-                        <td class="test-ERROR"><a href="#2">3</a></td>
-                            <td class="test-ERROR"><a href="#2">12</a>
+                        <td class="test-SUCCESS"><a href="#2">3</a></td>
+                            <td class="test-SUCCESS"><a href="#2">12</a>
                             </td>
                     </tr>
                 </tbody>
@@ -182,12 +182,12 @@ so that i can search an specific song
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -202,8 +202,8 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">7.11s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">4.76s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -224,7 +224,7 @@ so that i can search an specific song
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">5.4s</span></td>
+                    <td width="100"><span class="nested-group-step">3.18s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -241,7 +241,7 @@ so that i can search an specific song
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.68s</span></td>
+                    <td width="100"><span class="nested-step">1.46s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -285,7 +285,7 @@ so that i can search an specific song
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Fri, 24 Aug 2018 22:25:13 GMT<br>Content-Type: application/json<br>Content-Length: 97<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 13:22:32 GMT<br>Content-Type: application/json<br>Content-Length: 97<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
                                     <pre>{<br>    &quot;artist&quot;: &quot;Dead Kennedys&quot;,<br>    &quot;album&quot;: &quot;Fresh Fruit For Rotting Vegetables&quot;,<br>    &quot;name&quot;: &quot;Chemical Warfare&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
@@ -307,93 +307,50 @@ so that i can search an specific song
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then the system response with "200" status code
+                                Then the system response with an "200" status code
                             </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">0.02s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.06s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                 title='Null pointer exception'>
-                                <pre>Null pointer exception</pre>
-                            </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-5">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-5" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.NullPointerException
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                steps.ByGenreSteps.theSystemResponseWithStatusCode(ByGenreSteps.java
-                                    :53) <br>
-                                ✽.the system response with "200" status code(src/test/resources/features/songsById
-                                    :9) <br>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And I see a json with the specified song
+                                Then I see a json with the specified song
                             </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.05s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="1"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 error-icon"
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -408,8 +365,8 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">0.17s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.13s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -430,7 +387,7 @@ so that i can search an specific song
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">0.02s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -447,7 +404,7 @@ so that i can search an specific song
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.15s</span></td>
+                    <td width="100"><span class="nested-step">0.11s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -491,7 +448,7 @@ so that i can search an specific song
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Fri, 24 Aug 2018 22:25:14 GMT<br>Content-Type: application/json<br>Content-Length: 64<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 13:22:32 GMT<br>Content-Type: application/json<br>Content-Length: 64<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
                                     <pre>{<br>    &quot;artist&quot;: &quot;Wheres The Pope?&quot;,<br>    &quot;album&quot;: &quot;PSI&quot;,<br>    &quot;name&quot;: &quot;Fear Of God&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
@@ -513,93 +470,50 @@ so that i can search an specific song
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then the system response with "200" status code
+                                Then the system response with an "200" status code
                             </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                 title='Null pointer exception'>
-                                <pre>Null pointer exception</pre>
-                            </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-11">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-11" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.NullPointerException
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                steps.ByGenreSteps.theSystemResponseWithStatusCode(ByGenreSteps.java
-                                    :53) <br>
-                                ✽.the system response with "200" status code(src/test/resources/features/songsById
-                                    :9) <br>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And I see a json with the specified song
+                                Then I see a json with the specified song
                             </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="2"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection2 error-icon"
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -614,8 +528,8 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">0.1s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.06s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -653,7 +567,7 @@ so that i can search an specific song
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.08s</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -697,7 +611,7 @@ so that i can search an specific song
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Fri, 24 Aug 2018 22:25:14 GMT<br>Content-Type: application/json<br>Content-Length: 69<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 13:22:33 GMT<br>Content-Type: application/json<br>Content-Length: 69<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
                                     <pre>{<br>    &quot;artist&quot;: &quot;Hilltop Hoods&quot;,<br>    &quot;album&quot;: &quot;The Calling&quot;,<br>    &quot;name&quot;: &quot;The Calling&quot;<br>}</pre>
                                     <h5>Response Cookies</h5>
@@ -719,56 +633,136 @@ so that i can search an specific song
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then the system response with "200" status code
+                                Then the system response with an "200" status code
                             </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                 title='Null pointer exception'>
-                                <pre>Null pointer exception</pre>
-                            </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-17">
-                        View stack trace
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Then I see a json with the specified song
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Given I want to see a song with an specific id
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection4 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                When I go to /song/"&lt;id&gt;" with an invalid id
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.45s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection4" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                GET http://localhost:7070/kafka-music/song/%3Cid%3E
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-21">
+                        REST Query
                     </button>
-                </div>
+                </span>
                 <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-17" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                <div class="modal fade" id="restModal-21" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.NullPointerException
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET http://localhost:7070/kafka-music/song/%3Cid%3E
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                steps.ByGenreSteps.theSystemResponseWithStatusCode(ByGenreSteps.java
-                                    :53) <br>
-                                ✽.the system response with "200" status code(src/test/resources/features/songsById
-                                    :9) <br>
+                                    <p>Status code: 404</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Mon, 27 Aug 2018 13:22:34 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 303<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                <h5>Response Body</h5>
+                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/song/%3Cid%3E. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
                             </div>
-
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -777,33 +771,38 @@ so that i can search an specific song
                         </div>
                     </div>
                 </div>
-                        </td>
-                    </tr>
-                <tr class="test-SKIPPED">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                And I see a json with the specified song
-                            </span>
+                                </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Then the system response with an "404" status code
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>10.1s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>7.58s</em></span></td>
                 </tr>
 
             </table>

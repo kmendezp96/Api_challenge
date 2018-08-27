@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea5eb9d0-cb3c-4c03-828d-bbcbedb6c05c" name="Default" comment="" />
+    <list default="true" id="ea5eb9d0-cb3c-4c03-828d-bbcbedb6c05c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsStoredInstances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsTopFiveSongs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/TopFiveSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/songsById" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/songsById" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/storedInstances.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/storedInstances.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/topFiveSongs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/topFiveSongs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/803f35a54336fae643a3dd030d10b9bfc01f95776efe78a746263167e13fe7c9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/803f35a54336fae643a3dd030d10b9bfc01f95776efe78a746263167e13fe7c9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/803f35a54336fae643a3dd030d10b9bfc01f95776efe78a746263167e13fe7c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/803f35a54336fae643a3dd030d10b9bfc01f95776efe78a746263167e13fe7c9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-803f35a54336fae643a3dd030d10b9bfc01f95776efe78a746263167e13fe7c9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-803f35a54336fae643a3dd030d10b9bfc01f95776efe78a746263167e13fe7c9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c5517dc5da1ca68fb2d46f0f48631a37a8ec341e5a3a5f4cf59979149a975e77.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c5517dc5da1ca68fb2d46f0f48631a37a8ec341e5a3a5f4cf59979149a975e77.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c5517dc5da1ca68fb2d46f0f48631a37a8ec341e5a3a5f4cf59979149a975e77.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c5517dc5da1ca68fb2d46f0f48631a37a8ec341e5a3a5f4cf59979149a975e77.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c5517dc5da1ca68fb2d46f0f48631a37a8ec341e5a3a5f4cf59979149a975e77.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c5517dc5da1ca68fb2d46f0f48631a37a8ec341e5a3a5f4cf59979149a975e77.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/songsByGenre.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/songsByGenre.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/songsById" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/songsById" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/storedInstances.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/storedInstances.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/topFiveSongs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/topFiveSongs.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,29 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="songsByGenre.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature">
+      <file leaf-file-name="TestsByGenre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsByGenre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="songsById" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsById">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByGenreSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="74" />
+            <state>
+              <caret selection-end-line="7" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByIdSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java">
+      <file leaf-file-name="ByGenreSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+            <state relative-caret-position="170">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestsTopFiveSongs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsTopFiveSongs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,19 +75,25 @@
       <file leaf-file-name="storedInstances.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/storedInstances.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state>
+              <caret selection-end-line="27" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="storedInstancesSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java">
+      <file leaf-file-name="TopFiveSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/TopFiveSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-487">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +107,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -102,13 +128,18 @@
         <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestsByGenre.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestsById.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/storedInstances.feature" />
         <option value="$PROJECT_DIR$/src/test/java/storedInstances.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/songsById" />
         <option value="$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/songsById" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsStoredInstances.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/storedInstances.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/TopFiveSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/topFiveSongs.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsTopFiveSongs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/allSongs" />
       </list>
     </option>
   </component>
@@ -120,18 +151,19 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,6 +225,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,41 +253,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario:  (1)">
+  <component name="RunManager" selected="JUnit.TestsTopFiveSongs">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Feature: songsByGenre" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Api_challenge" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: songsByGenre" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/songsById" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Api_challenge" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature" />
+    <configuration name="Scenario:  (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/storedInstances.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Api_challenge" />
@@ -290,6 +295,40 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestsById" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestsStoredInstances" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api_challenge" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsStoredInstances" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestsTopFiveSongs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api_challenge" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsTopFiveSongs" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -341,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestsByGenre" />
-      <item itemvalue="Cucumber java.Feature: songsByGenre" />
       <item itemvalue="JUnit.TestsById" />
-      <item itemvalue="Cucumber java.Scenario:  (1)" />
-      <item itemvalue="Cucumber java.Scenario: " />
+      <item itemvalue="JUnit.TestsStoredInstances" />
+      <item itemvalue="Cucumber java.Scenario:  (2)" />
+      <item itemvalue="JUnit.TestsTopFiveSongs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario:  (1)" />
-        <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="JUnit.TestsByGenre" />
+        <item itemvalue="JUnit.TestsTopFiveSongs" />
+        <item itemvalue="JUnit.TestsStoredInstances" />
+        <item itemvalue="Cucumber java.Scenario:  (2)" />
         <item itemvalue="JUnit.TestsById" />
-        <item itemvalue="Cucumber java.Feature: songsByGenre" />
+        <item itemvalue="JUnit.TestsByGenre" />
       </list>
     </recent_temporary>
   </component>
@@ -370,35 +409,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestsByGenre - 2018.08.24 at 17h 40m 48s.xml">
-      <configuration name="TestsByGenre" configurationId="JUnit" />
+    <history-entry file="Scenario___(2) - 2018.08.27 at 08h 49m 09s.xml">
+      <configuration name="Scenario:  (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__ - 2018.08.24 at 17h 41m 38s.xml">
-      <configuration name="Scenario: " configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario___(2) - 2018.08.27 at 08h 50m 47s.xml">
+      <configuration name="Scenario:  (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__ - 2018.08.24 at 17h 42m 03s.xml">
-      <configuration name="Scenario: " configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestsStoredInstances - 2018.08.27 at 08h 51m 28s.xml">
+      <configuration name="TestsStoredInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__ - 2018.08.24 at 17h 42m 21s.xml">
-      <configuration name="Scenario: " configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario___(2) - 2018.08.27 at 08h 52m 30s.xml">
+      <configuration name="Scenario:  (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario___(1) - 2018.08.24 at 17h 51m 10s.xml">
-      <configuration name="Scenario:  (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestsStoredInstances - 2018.08.27 at 08h 53m 25s.xml">
+      <configuration name="TestsStoredInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario___(1) - 2018.08.24 at 17h 52m 22s.xml">
-      <configuration name="Scenario:  (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestsStoredInstances - 2018.08.27 at 08h 55m 15s.xml">
+      <configuration name="TestsStoredInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario___(1) - 2018.08.24 at 17h 52m 59s.xml">
-      <configuration name="Scenario:  (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario___(2) - 2018.08.27 at 08h 57m 50s.xml">
+      <configuration name="Scenario:  (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__ - 2018.08.24 at 17h 54m 57s.xml">
-      <configuration name="Scenario: " configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestsStoredInstances - 2018.08.27 at 08h 58m 58s.xml">
+      <configuration name="TestsStoredInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario___(1) - 2018.08.24 at 18h 01m 39s.xml">
-      <configuration name="Scenario:  (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestsStoredInstances - 2018.08.27 at 09h 04m 21s.xml">
+      <configuration name="TestsStoredInstances" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario___(1) - 2018.08.24 at 18h 06m 12s.xml">
-      <configuration name="Scenario:  (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestsTopFiveSongs - 2018.08.27 at 09h 27m 18s.xml">
+      <configuration name="TestsTopFiveSongs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -413,8 +452,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5343643" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4347079" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -436,14 +475,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43986255" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2099922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43986255" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -466,10 +505,71 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/storedInstances.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsById">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -546,13 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Search_field.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ByIdStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ByIdStep.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -580,37 +674,20 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/createSong.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestsByGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="36">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestsById.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
+        <state relative-caret-position="93">
           <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -619,18 +696,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/storedInstancesSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsStoredInstances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByIdSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsByGenre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+        <state>
+          <caret selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsById">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/topFiveSongs.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ByGenreSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -639,15 +767,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/storedInstances.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state>
+          <caret selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsById">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TopFiveSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="170">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/allSongs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsTopFiveSongs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

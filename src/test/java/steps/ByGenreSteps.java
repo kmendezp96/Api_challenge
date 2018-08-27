@@ -30,19 +30,19 @@ public class ByGenreSteps {
 
     @Given("^I want to see the songs of a genre$")
     public void iWantToSeeTheSongsOfAGenre() {
-      request = given().contentType("application/json");
+      this.request = given().contentType("application/json");
 
     }
 
     @When("^I make a REST request to see the songs of a \"([^\"]*)\"$")
     public void iMakeARESTRequestToSeeTheSongsOfA(String genre){
-        response = request.when().get(this.viewSongsByGnere+genre);
+        this.response = request.when().get(this.viewSongsByGnere+genre);
     }
 
     @Then("^the system returns one json with all the songs of that genre$")
     public void theSystemReturnsOneJsonWithAllTheSongsOfThatGenre() {
         //Object response = then().extract().response().getBody().jsonPath().getList("");
-        response.then().assertThat().body("size()", not(0));
+        this.response.then().assertThat().body("size()", not(0));
         //assertThat(response, is(notNullValue()));
         //response.body().print();
     }
@@ -50,12 +50,14 @@ public class ByGenreSteps {
 
     @Then("^the system response with \"([^\"]*)\" status code$")
     public void theSystemResponseWithStatusCode(int expectedHttpResponseCode) {
-        response.then().assertThat().statusCode(expectedHttpResponseCode);
+        this.response.then().assertThat().statusCode(expectedHttpResponseCode);
     }
 
     @When("^I make a REST request to see the songs of an invalid \"([^\"]*)\" genre$")
     public void iMakeARESTRequestToSeeTheSongsOfAnInvalidGenre(String invalidGenre){
         // Write code here that turns the phrase above into concrete actions
-        response = request.when().get(this.viewSongsByGnere+invalidGenre);
+        this.response = request.when().get(this.viewSongsByGnere+invalidGenre);
     }
+
+
 }
