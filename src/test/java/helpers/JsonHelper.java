@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 
 public class JsonHelper {
 
-    public JsonObject getJsonObjectFromResponse(Response response) {
+    public static JsonObject getJsonObjectFromResponse(Response response) {
         String jsonString = response.then().extract().response().body().print();
         return new JsonParser().parse(jsonString).getAsJsonObject();
     }

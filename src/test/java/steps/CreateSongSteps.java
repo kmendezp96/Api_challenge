@@ -1,6 +1,7 @@
 package steps;
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -15,16 +16,20 @@ public class CreateSongSteps {
         producerSong = new ProducerSong();
     }
 
-    @When("^I create a new song in the song-feed topic$")
-    public void iCreateANewSongInTheSongFeedTopic() throws Throwable {
-        producerSong.createSong(13L,
-                "The beatles",
-                "The beatles",
-                "Happiness is a warn gun",
-                "rock");
+    @When("^I create a new song with \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\" and \"([^\"]*)\" the song-feed topic$")
+    public void iCreateANewSongWithAndTheSongFeedTopic(long id, String album, String artist, String song, String genre) {
+        producerSong.createSong(id,
+                album,
+                artist,
+                song,
+                genre);
     }
 
     @Then("^I can play the song")
-    public void iCanPlayTheSong() throws InterruptedException {
+    public void iCanPlayTheSong() throws Throwable {
+        //producerSong.playSong();
     }
+
+
+
 }
