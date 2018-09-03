@@ -1,5 +1,6 @@
 package steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -10,17 +11,21 @@ public class CreateSongSteps {
     ProducerSong producerSong;
 
     @Given("^I have access to Kafka Service$")
-    public void iHaveAccessToKafkaService() throws Throwable {
-
+    public void iHaveAccessToKafkaService() {
+        producerSong = new ProducerSong();
     }
 
-    @When("^I create a new song : \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\" in the song-feed topic$")
-    public void iCreateANewSongInTheSongFeedTopic(String arg0, String arg1, String arg2, String arg3, String arg4) throws Throwable {
-        producerSong.createSong(arg0, arg1, arg2, arg3, arg4);
+    @When("^I create a new song in the song-feed topic$")
+    public void iCreateANewSongInTheSongFeedTopic() throws Throwable {
+        producerSong.createSong(13L,
+                "The beatles",
+                "The beatles",
+                "Happiness is a warn gun",
+                "rock");
     }
 
-    @Then("^I can play the song: \"([^\"]*)\"$")
-    public void iCanPlayTheSong(String arg0) throws Throwable {
+    @Then("^I can play the song")
+    public void iCanPlayTheSong() {
 
     }
 }
