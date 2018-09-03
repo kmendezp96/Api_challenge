@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>List with the instances of an specific provided store - Positive</title>
+    <title>filter songs by genre - positive</title>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -55,8 +55,8 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > <a href="8bb90fb23dcb7087a361770d464d347989bd19be5564a9ffdd93de63f8b94dea.html">List Of Instances</a>
-        > List with the instances of an specific provided store - Positive
+            > <a href="36cab49669d4201fdf03451ae4f15b4715ba710d4dbeeb2294a9e2d5776d60c9.html">Songs By Genre</a>
+        > filter songs by genre - positive
         </span>
         </div>
         <div class="rightbg"></div>
@@ -92,13 +92,13 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">List Of Instances </span>
+                                    <span class="story-header-title">Songs By Genre </span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
-                                As a user
-I want to see the list with the kafka instances
-so that I can know which instances the system has
+                                As a User
+I want to filter songs by its genre
+so that i can know the songs that belongs to a specific genre
                                 </div>
                             </div>
 
@@ -115,7 +115,7 @@ so that I can know which instances the system has
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    List with the instances of an specific provided store - Positive
+                                    filter songs by genre - positive
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -131,7 +131,7 @@ so that I can know which instances the system has
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given I want to see the list of intances that an specific provider has<br>When I go to /instances/ "&lt;storeName&gt;"<br>Then I see the list of the instances that the provided store has<br>And the system response an "200" status code</div>
+        <div class="scenario">Given I want to see the songs of a genre<br>When I make a REST request to see the songs of a "&lt;genre&gt;"<br>Then the system response with "200" status code<br>And the system returns one json with all the songs of that genre</div>
 
     </div>
 
@@ -144,28 +144,18 @@ so that I can know which instances the system has
                 <thead>
                 <tr>
                     <th>#</th>
-                        <th>Storename</th>
+                        <th>Genre</th>
                 </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="test-SUCCESS"><a href="#0">1</a></td>
-                            <td class="test-SUCCESS"><a href="#0">all-songs</a>
+                            <td class="test-SUCCESS"><a href="#0">Punk</a>
                             </td>
                     </tr>
                     <tr>
                         <td class="test-SUCCESS"><a href="#1">2</a></td>
-                            <td class="test-SUCCESS"><a href="#1">song-play-count</a>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td class="test-SUCCESS"><a href="#2">3</a></td>
-                            <td class="test-SUCCESS"><a href="#2">top-five-songs</a>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td class="test-SUCCESS"><a href="#3">4</a></td>
-                            <td class="test-SUCCESS"><a href="#3">top-five-songs-by-genre</a>
+                            <td class="test-SUCCESS"><a href="#1">Hip Hop</a>
                             </td>
                     </tr>
                 </tbody>
@@ -202,14 +192,14 @@ so that I can know which instances the system has
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                List with the instances of an specific provided store - Positive #1: {storeName=all-songs}
+                                filter songs by genre - positive #1: {genre=Punk}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.09s</span></td>
+                    <td width="100"><span class="top-level-step">8.5s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -224,13 +214,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given I want to see the list of intances that an specific provider has
+                                Given I want to see the songs of a genre
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">5.81s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -241,13 +231,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When I go to /instances/ "all-songs"
+                                When I make a REST request to see the songs of a "Punk"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.06s</span></td>
+                    <td width="100"><span class="nested-step">1.8s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -258,7 +248,7 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/instances/all-songs
+                                GET http://localhost:7070/kafka-music/charts/genre/Punk
                             </span>
 
                                 <span class="rest-query">
@@ -278,7 +268,7 @@ so that I can know which instances the system has
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/instances/all-songs
+                                GET http://localhost:7070/kafka-music/charts/genre/Punk
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -291,9 +281,9 @@ so that I can know which instances the system has
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 14:46:02 GMT<br>Content-Type: application/json<br>Content-Length: 122<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 14:46:54 GMT<br>Content-Type: application/json<br>Content-Length: 509<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>[<br>    {<br>        &quot;host&quot;: &quot;localhost&quot;,<br>        &quot;port&quot;: 7070,<br>        &quot;storeNames&quot;: [<br>            &quot;all-songs&quot;,<br>            &quot;song-play-count&quot;,<br>            &quot;top-five-songs&quot;,<br>            &quot;top-five-songs-by-genre&quot;<br>        ]<br>    }<br>]</pre>
+                                    <pre>[<br>    {<br>        &quot;artist&quot;: &quot;Subhumans&quot;,<br>        &quot;album&quot;: &quot;Live In A Dive&quot;,<br>        &quot;name&quot;: &quot;All Gone Dead&quot;,<br>        &quot;plays&quot;: 4228<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Dead Kennedys&quot;,<br>        &quot;album&quot;: &quot;Fresh Fruit For Rotting Vegetables&quot;,<br>        &quot;name&quot;: &quot;Chemical Warfare&quot;,<br>        &quot;plays&quot;: 4166<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Jello Biafra And The Guantanamo School Of Medicine&quot;,<br>        &quot;album&quot;: &quot;The Audacity Of Hype&quot;,<br>        &quot;name&quot;: &quot;Three Strikes&quot;,<br>        &quot;plays&quot;: 4132<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Anti-Nowhere League&quot;,<br>        &quot;album&quot;: &quot;We Are the League&quot;,<br>        &quot;name&quot;: &quot;Animal&quot;,<br>        &quot;plays&quot;: 4117<br>    },<br>    {<br>        &quot;artist&quot;: &quot;The Exploited&quot;,<br>        &quot;album&quot;: &quot;Totally Exploited&quot;,<br>        &quot;name&quot;: &quot;Punks Not Dead&quot;,<br>        &quot;plays&quot;: 4103<br>    }<br>]</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -322,13 +312,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then I see the list of the instances that the provided store has
+                                Then the system response with "200" status code
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.02s</span></td>
+                    <td width="100"><span class="nested-group-step">0.05s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -339,13 +329,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                And the system response an "200" status code
+                                And the system returns one json with all the songs of that genre
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">0.83s</span></td>
                 </tr>
 
                     </table>
@@ -365,14 +355,14 @@ so that I can know which instances the system has
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
                             <span class="top-level-step">
-                                List with the instances of an specific provided store - Positive #2: {storeName=song-play-count}
+                                filter songs by genre - positive #2: {genre=Hip Hop}
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.1s</span></td>
+                    <td width="100"><span class="top-level-step">0.08s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -387,13 +377,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given I want to see the list of intances that an specific provider has
+                                Given I want to see the songs of a genre
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -404,13 +394,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-step">
-                                When I go to /instances/ "song-play-count"
+                                When I make a REST request to see the songs of a "Hip Hop"
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.07s</span></td>
+                    <td width="100"><span class="nested-step">0.06s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
@@ -421,7 +411,7 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/instances/song-play-count
+                                GET http://localhost:7070/kafka-music/charts/genre/Hip%20Hop
                             </span>
 
                                 <span class="rest-query">
@@ -441,7 +431,7 @@ so that I can know which instances the system has
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/instances/song-play-count
+                                GET http://localhost:7070/kafka-music/charts/genre/Hip%20Hop
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -454,9 +444,9 @@ so that I can know which instances the system has
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 14:46:02 GMT<br>Content-Type: application/json<br>Content-Length: 122<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 14:46:55 GMT<br>Content-Type: application/json<br>Content-Length: 448<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>[<br>    {<br>        &quot;host&quot;: &quot;localhost&quot;,<br>        &quot;port&quot;: 7070,<br>        &quot;storeNames&quot;: [<br>            &quot;all-songs&quot;,<br>            &quot;song-play-count&quot;,<br>            &quot;top-five-songs&quot;,<br>            &quot;top-five-songs-by-genre&quot;<br>        ]<br>    }<br>]</pre>
+                                    <pre>[<br>    {<br>        &quot;artist&quot;: &quot;Eminem&quot;,<br>        &quot;album&quot;: &quot;Curtain Call - The Hits&quot;,<br>        &quot;name&quot;: &quot;Fack&quot;,<br>        &quot;plays&quot;: 4130<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Hilltop Hoods&quot;,<br>        &quot;album&quot;: &quot;The Calling&quot;,<br>        &quot;name&quot;: &quot;The Calling&quot;,<br>        &quot;plays&quot;: 4123<br>    },<br>    {<br>        &quot;artist&quot;: &quot;De La Soul&quot;,<br>        &quot;album&quot;: &quot;De La Soul Is Dead&quot;,<br>        &quot;name&quot;: &quot;Oodles Of O's&quot;,<br>        &quot;plays&quot;: 4120<br>    },<br>    {<br>        &quot;artist&quot;: &quot;Public Enemy&quot;,<br>        &quot;album&quot;: &quot;Fear Of A Black Planet&quot;,<br>        &quot;name&quot;: &quot;911 Is A Joke&quot;,<br>        &quot;plays&quot;: 4119<br>    },<br>    {<br>        &quot;artist&quot;: &quot;The Beastie Boys&quot;,<br>        &quot;album&quot;: &quot;Licensed to Ill&quot;,<br>        &quot;name&quot;: &quot;Fight For Your Right&quot;,<br>        &quot;plays&quot;: 4118<br>    }<br>]</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -485,24 +475,7 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Then I see the list of the instances that the provided store has
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                And the system response an "200" status code
+                                Then the system response with "200" status code
                             </span>
 
                         </div>
@@ -510,37 +483,6 @@ so that I can know which instances the system has
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="2"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
-                               style="display:block;">
-                            <span class="top-level-step">
-                                List with the instances of an specific provided store - Positive #3: {storeName=top-five-songs}
-                            </span>
-                            </a>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.09s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection2" style="display:none; width:100%">
-
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
@@ -550,291 +492,13 @@ so that I can know which instances the system has
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                Given I want to see the list of intances that an specific provider has
+                                And the system returns one json with all the songs of that genre
                             </span>
 
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">
-                                When I go to /instances/ "top-five-songs"
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.06s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/instances/top-five-songs
-                            </span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-16">
-                        REST Query
-                    </button>
-                </span>
-                <!-- Modal -->
-                <div class="modal fade" id="restModal-16" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/instances/top-five-songs
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <p>Status code: 200</p>
-                                    <p>Content Type: application/json</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 14:46:02 GMT<br>Content-Type: application/json<br>Content-Length: 122<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
-                                <h5>Response Body</h5>
-                                    <pre>[<br>    {<br>        &quot;host&quot;: &quot;localhost&quot;,<br>        &quot;port&quot;: 7070,<br>        &quot;storeNames&quot;: [<br>            &quot;all-songs&quot;,<br>            &quot;song-play-count&quot;,<br>            &quot;top-five-songs&quot;,<br>            &quot;top-five-songs-by-genre&quot;<br>        ]<br>    }<br>]</pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Then I see the list of the instances that the provided store has
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                And the system response an "200" status code
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="3"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
-                               style="display:block;">
-                            <span class="top-level-step">
-                                List with the instances of an specific provided store - Positive #4: {storeName=top-five-songs-by-genre}
-                            </span>
-                            </a>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.07s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection3" style="display:none; width:100%">
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Given I want to see the list of intances that an specific provider has
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">
-                                When I go to /instances/ "top-five-songs-by-genre"
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.04s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/instances/top-five-songs-by-genre
-                            </span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-22">
-                        REST Query
-                    </button>
-                </span>
-                <!-- Modal -->
-                <div class="modal fade" id="restModal-22" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/instances/top-five-songs-by-genre
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <p>Status code: 200</p>
-                                    <p>Content Type: application/json</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 14:46:02 GMT<br>Content-Type: application/json<br>Content-Length: 122<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
-                                <h5>Response Body</h5>
-                                    <pre>[<br>    {<br>        &quot;host&quot;: &quot;localhost&quot;,<br>        &quot;port&quot;: 7070,<br>        &quot;storeNames&quot;: [<br>            &quot;all-songs&quot;,<br>            &quot;song-play-count&quot;,<br>            &quot;top-five-songs&quot;,<br>            &quot;top-five-songs-by-genre&quot;<br>        ]<br>    }<br>]</pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Then I see the list of the instances that the provided store has
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                And the system response an "200" status code
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">0.02s</span></td>
                 </tr>
 
                     </table>
@@ -843,7 +507,7 @@ so that I can know which instances the system has
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>2.18s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>10.65s</em></span></td>
                 </tr>
 
             </table>

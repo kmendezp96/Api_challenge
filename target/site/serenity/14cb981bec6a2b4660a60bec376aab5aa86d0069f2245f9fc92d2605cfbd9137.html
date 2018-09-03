@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Filter songs by id - negative</title>
+    <title>filter songs by genre - negative</title>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -55,7 +55,8 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > Filter songs by id - negative
+            > <a href="36cab49669d4201fdf03451ae4f15b4715ba710d4dbeeb2294a9e2d5776d60c9.html">Songs By Genre</a>
+        > filter songs by genre - negative
         </span>
         </div>
         <div class="rightbg"></div>
@@ -91,13 +92,13 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Songs By Id</span>
+                                    <span class="story-header-title">Songs By Genre </span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
                                 As a User
-I want to filter a song by it's id
-so that i can search an specific song
+I want to filter songs by its genre
+so that i can know the songs that belongs to a specific genre
                                 </div>
                             </div>
 
@@ -114,7 +115,7 @@ so that i can search an specific song
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    Filter songs by id - negative
+                                    filter songs by genre - negative
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -156,7 +157,7 @@ so that i can search an specific song
                     <td>
                         <div class="step-description">
                             <span class="top-level-step">
-                                Given I want to see a song with an specific id
+                                Given I want to see the songs of a genre
                             </span>
 
                         </div>
@@ -178,14 +179,14 @@ so that i can search an specific song
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
                             <span class="top-level-step">
-                                When I go to /song/"&lt;id&gt;" with an invalid id
+                                When I make a REST request to see the songs of an invalid "rock" genre
                             </span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.47s</span></td>
+                    <td width="100"><span class="top-level-step">0.41s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -200,7 +201,7 @@ so that i can search an specific song
                     <td>
                         <div class="step-description">
                             <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/song/%3Cid%3E
+                                GET http://localhost:7070/kafka-music/charts/genre/rock
                             </span>
 
                                 <span class="rest-query">
@@ -220,7 +221,7 @@ so that i can search an specific song
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/song/%3Cid%3E
+                                GET http://localhost:7070/kafka-music/charts/genre/rock
                                 </h4>
                             </div>
                             <div class="modal-body">
@@ -233,9 +234,9 @@ so that i can search an specific song
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Mon, 27 Aug 2018 14:46:23 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 303<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
+                                    <pre>Date: Mon, 27 Aug 2018 14:46:57 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 307<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
                                 <h5>Response Body</h5>
-                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/song/%3Cid%3E. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/charts/genre/rock. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
                             </div>
@@ -267,7 +268,7 @@ so that i can search an specific song
                     <td>
                         <div class="step-description">
                             <span class="top-level-step">
-                                Then the system response with an "404" status code
+                                Then the system response with "404" status code
                             </span>
 
                         </div>
@@ -278,7 +279,7 @@ so that i can search an specific song
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.48s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.42s</em></span></td>
                 </tr>
 
             </table>
