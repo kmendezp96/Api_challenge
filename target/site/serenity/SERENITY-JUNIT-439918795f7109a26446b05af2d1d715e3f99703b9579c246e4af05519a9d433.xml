@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Createsong" skipped="0" tests="1" time="2.34" timestamp="2018-09-02T19:16:31.216-05:00[America/Bogota]"><testcase name="Create a new song"><error message="Error creating mbean attribute for metricName :MetricName [name=count, group=kafka-metrics-count, description=total number of registered metrics, tags={client-id=http://localhost:8081}]" type="org.apache.kafka.common.KafkaException">Error creating mbean attribute for metricName :MetricName [name=count, group=kafka-metrics-count, description=total number of registered metrics, tags={client-id=http://localhost:8081}]</error><system-err>Error creating mbean attribute for metricName :MetricName [name=count, group=kafka-metrics-count, description=total number of registered metrics, tags={client-id=http://localhost:8081}]
-org.apache.kafka.common.metrics.JmxReporter.addAttribute(JmxReporter.java:113)
-org.apache.kafka.common.metrics.JmxReporter.metricChange(JmxReporter.java:76)
-org.apache.kafka.common.metrics.Metrics.registerMetric(Metrics.java:436)
-org.apache.kafka.common.metrics.Metrics.addMetric(Metrics.java:403)
-org.apache.kafka.common.metrics.Metrics.addMetric(Metrics.java:387)
-org.apache.kafka.common.metrics.Metrics.&lt;init&gt;(Metrics.java:144)
-org.apache.kafka.common.metrics.Metrics.&lt;init&gt;(Metrics.java:110)
-org.apache.kafka.clients.producer.KafkaProducer.&lt;init&gt;(KafkaProducer.java:227)
-org.apache.kafka.clients.producer.KafkaProducer.&lt;init&gt;(KafkaProducer.java:204)
-kafka.ProducerSong.createSong(ProducerSong.java:44)
-steps.CreateSongSteps.iCreateANewSongInTheSongFeedTopic(CreateSongSteps.java:20)
-cucumber.runner.Runner.runPickle(Runner.java:80)
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Createsong" skipped="0" tests="1" time="2.52" timestamp="2018-09-02T20:02:03.824-05:00[America/Bogota]"><testcase name="Create a new song"/></testsuite>

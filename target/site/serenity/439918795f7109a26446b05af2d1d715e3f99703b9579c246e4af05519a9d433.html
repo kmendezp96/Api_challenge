@@ -77,7 +77,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-09-2018 19:16</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-09-2018 20:02</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -112,9 +112,9 @@ so that users can play new songs
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="error-color">
+                                    <span class="success-color">
                                     Create a new song
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -163,13 +163,13 @@ so that users can play new songs
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.79s</span></td>
+                    <td width="100"><span class="top-level-step">0.74s</span></td>
                 </tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="1"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -179,80 +179,14 @@ so that users can play new songs
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">0.69s</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">1.2s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                 title='Kafka exception: Error creating mbean attribute for metricName :MetricName [name=count, group=kafka-metrics-count, description=total number of registered metrics, tags={client-id=http://localhost:8081}]'>
-                                <pre>Kafka exception: Error creating mbean attribute for metricName :MetricName [name=count, group=kafka-metrics-count, description=total number of registered metrics, tags={client-id=http://localhost:8081}]</pre>
-                            </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-2">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-2" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                org.apache.kafka.common.KafkaException
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <h5>
-                                        <pre>Error creating mbean attribute for metricName :MetricName [name=count, group=kafka-metrics-count, description=total number of registered metrics, tags={client-id=http://localhost:8081}]</pre>
-                                    </h5>
-                                org.apache.kafka.common.metrics.JmxReporter.addAttribute(JmxReporter.java
-                                    :113) <br>
-                                org.apache.kafka.common.metrics.JmxReporter.metricChange(JmxReporter.java
-                                    :76) <br>
-                                org.apache.kafka.common.metrics.Metrics.registerMetric(Metrics.java
-                                    :436) <br>
-                                org.apache.kafka.common.metrics.Metrics.addMetric(Metrics.java
-                                    :403) <br>
-                                org.apache.kafka.common.metrics.Metrics.addMetric(Metrics.java
-                                    :387) <br>
-                                org.apache.kafka.common.metrics.Metrics.<init>(Metrics.java
-                                    :144) <br>
-                                org.apache.kafka.common.metrics.Metrics.<init>(Metrics.java
-                                    :110) <br>
-                                org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java
-                                    :227) <br>
-                                org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java
-                                    :204) <br>
-                                kafka.ProducerSong.createSong(ProducerSong.java
-                                    :44) <br>
-                                steps.CreateSongSteps.iCreateANewSongInTheSongFeedTopic(CreateSongSteps.java
-                                    :20) <br>
-                                cucumber.runner.Runner.runPickle(Runner.java
-                                    :80) <br>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="2"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -262,13 +196,13 @@ so that users can play new songs
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>2.34s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>2.52s</em></span></td>
                 </tr>
 
             </table>

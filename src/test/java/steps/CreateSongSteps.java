@@ -25,7 +25,6 @@ public class CreateSongSteps {
     }
 
     @Then("^I can play the song")
-    public void iCanPlayTheSong() {
-
+    public void iCanPlayTheSong() throws InterruptedException {
     }
 }
