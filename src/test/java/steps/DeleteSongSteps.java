@@ -9,7 +9,10 @@ import cucumber.api.java.en.When;
 import helpers.JsonHelper;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import kafka.ConnectionKafka;
 import kafka.ProducerSong;
+
+import java.io.IOException;
 
 import static net.serenitybdd.rest.SerenityRest.given;
 import static net.serenitybdd.rest.SerenityRest.then;
@@ -22,13 +25,11 @@ public class DeleteSongSteps {
     private Response response;
     private RequestSpecification request;
     private String viewSongsById = "http://localhost:7070/kafka-music/song/";
-    private ProducerSong producerSong;
-
     private String name;
 
     @Given("^I have access to  Kafka Service$")
-    public void iHaveAccessToKafkaService() {
-        producerSong = new ProducerSong();
+    public void iHaveAccessToKafkaService() throws IOException {
+        ConnectionKafka connectionKafka =  new ConnectionKafka();
     }
 
     @And("^the song with this \"([^\"]*)\" exists$")
@@ -42,7 +43,7 @@ public class DeleteSongSteps {
 
     @When("^I delete a song with that \"([^\"]*)\"$")
     public void iDeleteASongWithThat(String id) {
-        producerSong.createSong(Long.parseLong(id),
+        ProducerSong producerSong = new ProducerSong(Long.parseLong(id),
                 "",
                 "",
                 "",

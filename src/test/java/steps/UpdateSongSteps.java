@@ -7,7 +7,10 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import kafka.ConnectionKafka;
 import kafka.ProducerSong;
+
+import java.io.IOException;
 
 import static net.serenitybdd.rest.SerenityRest.given;
 import static org.hamcrest.Matchers.containsString;
@@ -24,8 +27,8 @@ public class UpdateSongSteps {
     String name;
 
     @Given("^I have access to the Kafka Service$")
-    public void iHaveAccessToTheKafkaService(){
-        producerSong = new ProducerSong();
+    public void iHaveAccessToTheKafkaService() throws IOException {
+        ConnectionKafka connectionKafka =  new ConnectionKafka();
     }
 
     @And("^the song with \"([^\"]*)\" exists$")
@@ -41,7 +44,7 @@ public class UpdateSongSteps {
         this.artist = artist;
         this.album = album;
         this.name = song;
-        producerSong.createSong(this.id,
+        ProducerSong producerSong = new ProducerSong(this.id,
                 album,
                 artist,
                 song,
