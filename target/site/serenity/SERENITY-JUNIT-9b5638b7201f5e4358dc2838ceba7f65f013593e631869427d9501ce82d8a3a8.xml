@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Deletesong" skipped="0" tests="1" time="10.1" timestamp="2018-09-03T11:46:44.592-05:00[America/Bogota]"><testcase name="Delete song"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Deletesong" skipped="0" tests="1" time="6.83" timestamp="2018-09-04T09:42:19.582-05:00[America/Bogota]"><testcase name="Delete song"><failure message="The song shouldn't exists&#10;Expected: not &quot;&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">The song shouldn't exists
+Expected: not ""
+     but: was ""</failure><system-err>The song shouldn't exists
+Expected: not ""
+     but: was ""&#13;
+steps.DeleteSongSteps.iWontSeeTheSongWithThat(DeleteSongSteps.java:63)&#13;
+✽.I wont see the song with that "2"(src/test/resources/features/deleteSong.feature:10)&#13;
+</system-err></testcase></testsuite>
