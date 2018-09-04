@@ -1,0 +1,17 @@
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\TopFiveSteps.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\helpers\PropertiesHelper.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\kafka\ConnectionKafka.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\CreateSongSteps.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\TestsStoredInstances.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\helpers\TestApi.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\TestsTopFiveSongs.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\UpdateSongSteps.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\ByGenreSteps.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\storedInstancesSteps.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\helpers\TestSong.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\ByIdSteps.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\entities\Song.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\kafka\ProducerSong.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\kafka\SongSerializer.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\helpers\JsonHelper.java
+C:\Users\kmendez\IdeaProjects\Api_challenge\src\test\java\steps\DeleteSongSteps.java

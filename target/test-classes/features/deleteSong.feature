@@ -10,4 +10,4 @@ Feature:
     Then I wont see the song with that "<id>"
     Examples:
       | id |
-      | 2  |
+      | 7  |

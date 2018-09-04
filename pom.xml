@@ -230,6 +230,10 @@
                 <version>${avro.version}</version>
                 <executions>
                     <execution>
+                        <phase>none</phase>
+                    </execution>
+                    <!--
+                    <execution>
                         <phase>generate-sources</phase>
                         <goals>
                             <goal>schema</goal>
@@ -239,8 +243,16 @@
                             <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
                             <stringType>String</stringType>
                         </configuration>
-                    </execution>
+                    </execution>-->
                 </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <fork>true</fork>
+                    <executable>C:\Program Files\Java\jdk1.8.0_181\bin\javac.exe</executable>
+                </configuration>
             </plugin>
         </plugins>
     </build>

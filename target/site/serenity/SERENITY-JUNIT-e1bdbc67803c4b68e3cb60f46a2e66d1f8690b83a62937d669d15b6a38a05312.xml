@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Tests" skipped="0" tests="1" time="0.41" timestamp="2018-08-24T13:16:53.851-05:00[America/Bogota]"><testcase classname="Tests" name="As a user i want to filter songs by its genre"><error type="java.lang.NullPointerException"/><system-err>null&#13;
-steps.ByGenreSteps.iWantToSeeTheSongsOfAGenre(ByGenreSteps.java:21)&#13;
-Tests.asAUserIWantToFilterSongsByItsGenre(Tests.java:16)&#13;
-</system-err></testcase></testsuite>
