@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7323813d-45c0-424e-8375-5b21205941a2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestsStoredInstances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestsStoredInstances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestsTopFiveSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestsTopFiveSongs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/TestSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestSong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createSong.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createSong.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -414,12 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestApi - 2018.09.04 at 09h 42m 59s.xml">
-      <configuration name="TestApi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestApi - 2018.09.04 at 09h 44m 17s.xml">
-      <configuration name="TestApi" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestApi - 2018.09.04 at 10h 03m 47s.xml">
       <configuration name="TestApi" configurationId="JUnit" />
     </history-entry>
@@ -444,10 +427,15 @@
     <history-entry file="Scenario__Create_a_new_song - 2018.09.06 at 15h 40m 23s.xml">
       <configuration name="Scenario: Create a new song" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Create_a_new_song - 2018.09.06 at 15h 41m 41s.xml">
+      <configuration name="Scenario: Create a new song" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_new_song - 2018.09.06 at 15h 42m 15s.xml">
+      <configuration name="Scenario: Create a new song" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1233" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -460,11 +448,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5609349" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32888147" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25404945" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25404945" />
       <window_info anchor="right" id="UML design tool window" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -738,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
