@@ -4,10 +4,10 @@ Feature:
   so that i can change some attributes of that song
 
   Scenario Outline: Update song
-    Given I have access to the Kafka Service
+    Given I have access to Kafka Service
     And the song with "<id>" exists
-    When I change the attributes "<album>", "<artist>", "<name>" and "<genre>"
-    Then I will see the update song with the same "<id>"
+    When I change the attributes album: "<album>", artist: "<artist>", name: "<name>" and genre: "<genre>" to song with id: "<id>"
+    Then I can search the song with id: "<id>"
     Examples:
       | id | album                  | artist       | name                      | genre   |
       | 1  | London Calling         | the Clash    | Spanish Bombs             | Punk    |

@@ -5,7 +5,7 @@ Feature:
 
   Scenario Outline: Create a new song
     Given I have access to Kafka Service
-    When I create a new song with "<id>", "<album>", "<artist>", "<name>" and "<genre>" the song-feed topic
+    When I create a new song with id: "<id>", album: "<album>", artist: "<artist>", name: "<name>" and genre: "<genre>" in the song-feed topic
     Then I can search the song with id: "<id2>"
     Examples:
       | id  | album                   | artist      | name                    | genre | id2 |

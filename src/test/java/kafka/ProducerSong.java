@@ -2,6 +2,7 @@ package kafka;
 
 import entities.Song;
 
+import entities.SongBean;
 import helpers.PropertiesHelper;
 import io.confluent.kafka.schemaregistry.client.CachedSchemaRegistryClient;
 import org.apache.avro.specific.SpecificRecordBase;
@@ -15,8 +16,10 @@ import java.util.*;
 
 public class ProducerSong<L extends Number, S extends SpecificRecordBase> {
 
-    public ProducerSong(Long id, String album, String artist, String song, String genre) {
-        List<Song> songs = Arrays.asList(new Song(id, album, artist, song, genre));
+    private static SongBean songBean;
+
+    public ProducerSong(Long id, String album, String artist, String name, String genre) {
+        List<Song> songs = Arrays.asList(new Song(id, album, artist, name, genre));
         SongSerializer<Song> songSerializer = new SongSerializer<>(ConnectionKafka.getSchemaRegistry(), ConnectionKafka.getSerdeProps());
         songSerializer.configure(ConnectionKafka.getSerdeProps(), false);
         KafkaProducer<Long, Song> songProducer = new KafkaProducer<>(ConnectionKafka.getProps(),
@@ -26,4 +29,11 @@ public class ProducerSong<L extends Number, S extends SpecificRecordBase> {
         songProducer.close();
     }
 
+    public void createSongBean(long id, String album, String artist, String name, String genre){
+        songBean = new SongBean(id, artist, album, name, genre);
+    }
+
+    public static SongBean getSongBean() {
+        return songBean;
+    }
 }

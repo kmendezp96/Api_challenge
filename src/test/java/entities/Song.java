@@ -9,7 +9,8 @@ package entities;
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class Song extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-    public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Song\",\"namespace\":\"io.confluent.examples.streams.avro\",\"fields\":[{\"name\":\"id\",\"type\":\"long\"},{\"name\":\"album\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"artist\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"name\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"genre\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}]}");
+    public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser()
+            .parse("{\"type\":\"record\",\"name\":\"Song\",\"namespace\":\"io.confluent.examples.streams.avro\",\"fields\":[{\"name\":\"id\",\"type\":\"long\"},{\"name\":\"album\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"artist\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"name\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"genre\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}]}");
     public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
     @Deprecated public long id;
     @Deprecated public java.lang.String album;
