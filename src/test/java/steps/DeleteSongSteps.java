@@ -61,7 +61,9 @@ public class DeleteSongSteps {
         try{
             Thread.sleep(1000L);
             assertThat("The song shouldn't exists",
-                    this.name, not(JsonHelper.getJsonObjectFromResponse(request.when().get(this.viewSongsById+id)).get("name").getAsString()));
+                    this.name, not(JsonHelper
+                            .getJsonObjectFromResponse(request.when().get(this.viewSongsById+id))
+                            .get("name").getAsString()));
         } catch (InterruptedException e){
             System.out.println(e);
 

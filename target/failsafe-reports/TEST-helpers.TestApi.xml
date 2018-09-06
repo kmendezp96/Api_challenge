@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="helpers.TestApi" time="11.913" tests="14" errors="14" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre-10.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kmendez\IdeaProjects\Api_challenge"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kmendez\IdeaProjects\Api_challenge"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kmendez\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\cmd;C:\Python27;C:\Python27\Scripts;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs\;C:\HashiCorp\Vagrant\bin;M2_HOME\bin;C:\Users\kmendez\AppData\Local\Microsoft\WindowsApps;C:\Python27;C:\Python27\Scripts;C:\Users\kmendez\AppData\Roaming\npm;M2_HOME\bin;C:\Program Files\apache-maven-3.5.4\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.4\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\kmendez"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="kmendez"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="C:\Program Files\Java\jre-10.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="filter songs by genre - positive" classname="Songs by genre" time="1.036">
+    <error message="javax/xml/bind/JAXBException" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+</error>
+    <system-out><![CDATA[XXX Created runtime cucumber.runtime.RuntimeOptions@55dfcc6
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/kmendez/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/kmendez/.m2/repository/org/slf4j/slf4j-log4j12/1.7.6/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO net.serenitybdd.core.Serenity - &amp#27;[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Songs by genre
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Songs by id
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: List of instances
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Top five songs
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: filter songs by genre - positive
+-------------------------------------------------------------------(songs-by-genre;filter-songs-by-genre---positive)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: filter songs by genre - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the songs of a genre
+[main] ERROR net.serenitybdd.core.Serenity - javax/xml/bind/JAXBException
+]]></system-err>
+  </testcase>
+  <testcase name="filter songs by genre - positive" classname="Songs by genre" time="2.911">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: filter songs by genre - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the songs of a genre
+[main] ERROR net.serenitybdd.core.Serenity - javax/xml/bind/JAXBException
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: filter songs by genre - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the songs of a genre
+[main] ERROR net.serenitybdd.core.Serenity - javax/xml/bind/JAXBException
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="filter songs by genre - negative" classname="Songs by genre" time="0.187">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: filter songs by genre - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the songs of a genre
+[main] ERROR net.serenitybdd.core.Serenity - javax/xml/bind/JAXBException
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: filter songs by genre - negative
+-------------------------------------------------------------------(songs-by-genre;filter-songs-by-genre---negative)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: filter songs by genre - negative
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the songs of a genre
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="Filter songs by id - positive" classname="Songs by id" time="0.064">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: filter songs by genre - negative
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the songs of a genre
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Filter songs by id - positive
+-------------------------------------------------------------------(songs-by-id;filter-songs-by-id---positive)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="Filter songs by id - positive" classname="Songs by id" time="0.084">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="Filter songs by id - positive" classname="Songs by id" time="0.097">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="Filter songs by id - negative" classname="Songs by id" time="0.095">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Filter songs by id - negative
+-------------------------------------------------------------------(songs-by-id;filter-songs-by-id---negative)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - negative
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="List with all the instances - Positive" classname="List of instances" time="0.089">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filter songs by id - negative
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see a song with an specific id
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: List with all the instances - Positive
+-------------------------------------------------------------------(list-of-instances;list-with-all-the-instances---positive)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with all the instances - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="List with the instances of an specific provided store - Positive" classname="List of instances" time="0.095">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with all the instances - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: List with the instances of an specific provided store - Positive
+-------------------------------------------------------------------(list-of-instances;list-with-the-instances-of-an-specific-provided-store---positive)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="List with the instances of an specific provided store - Positive" classname="List of instances" time="0.098">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="List with the instances of an specific provided store - Positive" classname="List of instances" time="0.111">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="List with the instances of an specific provided store - Positive" classname="List of instances" time="0.217">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="List with the instances of an non-existent provided store - Negative" classname="List of instances" time="0.071">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an specific provided store - Positive
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: List with the instances of an non-existent provided store - Negative
+-------------------------------------------------------------------(list-of-instances;list-with-the-instances-of-an-non-existent-provided-store---negative)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an non-existent provided store - Negative
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+  <testcase name="See the top five more listened songs" classname="Top five songs" time="0.097">
+    <error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+</error>
+    <system-err><![CDATA[[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: List with the instances of an non-existent provided store - Negative
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the list of intances that an specific provider has
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: See the top five more listened songs
+-------------------------------------------------------------------(top-five-songs;see-the-top-five-more-listened-songs)
+[main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: See the top five more listened songs
+---------------------------------------------------------------------
+[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Given I want to see the top five songs
+[main] ERROR net.serenitybdd.core.Serenity - Could not initialize class io.restassured.RestAssured
+]]></system-err>
+  </testcase>
+</testsuite>

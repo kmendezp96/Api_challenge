@@ -50,11 +50,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 3],
+                ['Passing', 0],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  3],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -83,11 +83,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 requirements tested successfully'},
+                {label: '0 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
+                {label: '3} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -183,7 +183,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 10:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 11:35</span>
     <br style="clear:left"/>
 </div>
 
@@ -223,8 +223,8 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>3</td>
-                                    <td>3</td>
                                     <td>0</td>
+                                    <td>3</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -254,8 +254,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>3</td>
-            <td>3 (100%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -270,14 +270,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>3</td>
-            <td>3 (100%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">11 seconds</td>
+                <td colspan="5">5 seconds</td>
         </tr>
         </body>
     </table>
@@ -306,50 +306,50 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
                                         <a href="9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.html" class="ellipsis"
-                                           title="filter songs by genre - positive ">
+                                           title="filter songs by genre - positive No class def found error: javax/xml/b...">
                                             filter songs by genre - positive&nbsp;(2  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">12</td>
+                                <td class="ERROR-text">10</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-09-04 10:10:31">10:10:31</td>
+                                <td class="ERROR-text" data-sort="2018-09-04 11:35:22">11:35:22</td>
 
-                                <td class="SUCCESS-text">10.48</td>
+                                <td class="ERROR-text">4.59</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
                                         <a href="14cb981bec6a2b4660a60bec376aab5aa86d0069f2245f9fc92d2605cfbd9137.html" class="ellipsis"
-                                           title="filter songs by genre - negative ">
+                                           title="filter songs by genre - negative No class def found error: Could not i...">
                                             filter songs by genre - negative
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">4</td>
+                                <td class="ERROR-text">3</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-09-04 10:10:41">10:10:41</td>
+                                <td class="ERROR-text" data-sort="2018-09-04 11:35:27">11:35:27</td>
 
-                                <td class="SUCCESS-text">0.63</td>
+                                <td class="ERROR-text">0.06</td>
                             </tr>
                         </tbody>
                     </table>

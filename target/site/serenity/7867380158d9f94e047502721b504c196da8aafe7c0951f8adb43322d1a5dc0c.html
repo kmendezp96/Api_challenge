@@ -77,7 +77,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 10:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 11:35</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -112,9 +112,9 @@ so that i can search an specific song
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="error-color">
                                     Filter songs by id - positive
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -149,18 +149,18 @@ so that i can search an specific song
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="test-SUCCESS"><a href="#0">1</a></td>
-                            <td class="test-SUCCESS"><a href="#0">1</a>
+                        <td class="test-ERROR"><a href="#0">1</a></td>
+                            <td class="test-ERROR"><a href="#0">1</a>
                             </td>
                     </tr>
                     <tr>
-                        <td class="test-SUCCESS"><a href="#1">2</a></td>
-                            <td class="test-SUCCESS"><a href="#1">4</a>
+                        <td class="test-ERROR"><a href="#1">2</a></td>
+                            <td class="test-ERROR"><a href="#1">4</a>
                             </td>
                     </tr>
                     <tr>
-                        <td class="test-SUCCESS"><a href="#2">3</a></td>
-                            <td class="test-SUCCESS"><a href="#2">12</a>
+                        <td class="test-ERROR"><a href="#2">3</a></td>
+                            <td class="test-ERROR"><a href="#2">12</a>
                             </td>
                     </tr>
                 </tbody>
@@ -183,12 +183,12 @@ so that i can search an specific song
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -203,18 +203,18 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.07s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -224,74 +224,47 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">
-                                When I go to /song/"1"
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.05s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/song/1
-                            </span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-4">
-                        REST Query
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='No class def found error: Could not initialize class io.restassured.RestAssured'>
+                                <pre>No class def found error: Could not initialize class io.restassured.RestAssured</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-2">
+                        View stack trace
                     </button>
-                </span>
+                </div>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-4" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
+                <div class="modal fade" id="stacktraceModal-2" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/song/1
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                java.lang.NoClassDefFoundError
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 200</p>
-                                    <p>Content Type: application/json</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Date: Tue, 04 Sep 2018 15:10:42 GMT<br>Content-Type: application/json<br>Content-Length: 97<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
-                                <h5>Response Body</h5>
-                                    <pre>{<br>    &quot;artist&quot;: &quot;Dead Kennedys&quot;,<br>    &quot;album&quot;: &quot;Fresh Fruit For Rotting Vegetables&quot;,<br>    &quot;name&quot;: &quot;Chemical Warfare&quot;<br>}</pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
+                                    <h5>
+                                        <pre>Could not initialize class io.restassured.RestAssured</pre>
+                                    </h5>
+                                net.serenitybdd.rest.SerenityRest.given(SerenityRest.java
+                                    :211) <br>
+                                steps.ByIdSteps.iWantToSeeASongWithAnSpecificId(ByIdSteps.java
+                                    :24) <br>
+                                ✽.I want to see a song with an specific id(src/test/resources/features/songsById.feature
+                                    :7) <br>
                             </div>
+
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -300,19 +273,30 @@ so that i can search an specific song
                         </div>
                     </div>
                 </div>
-                                </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                When I go to /song/"1"
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -322,14 +306,14 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -339,19 +323,19 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="1"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection1 error-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -366,18 +350,18 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection1" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -387,74 +371,47 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">
-                                When I go to /song/"4"
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.03s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/song/4
-                            </span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-10">
-                        REST Query
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='No class def found error: Could not initialize class io.restassured.RestAssured'>
+                                <pre>No class def found error: Could not initialize class io.restassured.RestAssured</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-7">
+                        View stack trace
                     </button>
-                </span>
+                </div>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-10" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
+                <div class="modal fade" id="stacktraceModal-7" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/song/4
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                java.lang.NoClassDefFoundError
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 200</p>
-                                    <p>Content Type: application/json</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Date: Tue, 04 Sep 2018 15:10:42 GMT<br>Content-Type: application/json<br>Content-Length: 64<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
-                                <h5>Response Body</h5>
-                                    <pre>{<br>    &quot;artist&quot;: &quot;Wheres The Pope?&quot;,<br>    &quot;album&quot;: &quot;PSI&quot;,<br>    &quot;name&quot;: &quot;Fear Of God&quot;<br>}</pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
+                                    <h5>
+                                        <pre>Could not initialize class io.restassured.RestAssured</pre>
+                                    </h5>
+                                net.serenitybdd.rest.SerenityRest.given(SerenityRest.java
+                                    :211) <br>
+                                steps.ByIdSteps.iWantToSeeASongWithAnSpecificId(ByIdSteps.java
+                                    :24) <br>
+                                ✽.I want to see a song with an specific id(src/test/resources/features/songsById.feature
+                                    :7) <br>
                             </div>
+
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -463,19 +420,30 @@ so that i can search an specific song
                         </div>
                     </div>
                 </div>
-                                </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                When I go to /song/"4"
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -485,14 +453,14 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -502,19 +470,19 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="2"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection2 error-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -529,18 +497,18 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.06s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection2" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -550,74 +518,47 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
                     <td width="100"><span class="nested-group-step">0.01s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">
-                                When I go to /song/"12"
-                            </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0.04s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/song/12
-                            </span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-16">
-                        REST Query
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='No class def found error: Could not initialize class io.restassured.RestAssured'>
+                                <pre>No class def found error: Could not initialize class io.restassured.RestAssured</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-12">
+                        View stack trace
                     </button>
-                </span>
+                </div>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-16" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
+                <div class="modal fade" id="stacktraceModal-12" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/song/12
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                java.lang.NoClassDefFoundError
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 200</p>
-                                    <p>Content Type: application/json</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Date: Tue, 04 Sep 2018 15:10:42 GMT<br>Content-Type: application/json<br>Content-Length: 69<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
-                                <h5>Response Body</h5>
-                                    <pre>{<br>    &quot;artist&quot;: &quot;Hilltop Hoods&quot;,<br>    &quot;album&quot;: &quot;The Calling&quot;,<br>    &quot;name&quot;: &quot;The Calling&quot;<br>}</pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
+                                    <h5>
+                                        <pre>Could not initialize class io.restassured.RestAssured</pre>
+                                    </h5>
+                                net.serenitybdd.rest.SerenityRest.given(SerenityRest.java
+                                    :211) <br>
+                                steps.ByIdSteps.iWantToSeeASongWithAnSpecificId(ByIdSteps.java
+                                    :24) <br>
+                                ✽.I want to see a song with an specific id(src/test/resources/features/songsById.feature
+                                    :7) <br>
                             </div>
+
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -626,19 +567,30 @@ so that i can search an specific song
                         </div>
                     </div>
                 </div>
-                                </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                When I go to /song/"12"
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -648,14 +600,14 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -665,17 +617,17 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">SKIPPED</span></td>
                     <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.68s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.39s</em></span></td>
                 </tr>
 
             </table>

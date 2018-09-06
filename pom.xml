@@ -166,7 +166,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <includes>
-                        <include>**/features/**/*.java</include>
+                        <include>**/helpers/*.java</include>
                     </includes>
                     <argLine>-Xmx1024m</argLine>
                     <!--

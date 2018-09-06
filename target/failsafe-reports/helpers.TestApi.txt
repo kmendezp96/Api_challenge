@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: helpers.TestApi
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 11.913 sec <<< FAILURE! - in helpers.TestApi
+filter songs by genre - positive(Songs by genre)  Time elapsed: 1.036 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+
+filter songs by genre - positive(Songs by genre)  Time elapsed: 2.911 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+filter songs by genre - negative(Songs by genre)  Time elapsed: 0.187 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Filter songs by id - positive(Songs by id)  Time elapsed: 0.064 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Filter songs by id - positive(Songs by id)  Time elapsed: 0.084 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Filter songs by id - positive(Songs by id)  Time elapsed: 0.097 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Filter songs by id - negative(Songs by id)  Time elapsed: 0.095 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+List with all the instances - Positive(List of instances)  Time elapsed: 0.089 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+List with the instances of an specific provided store - Positive(List of instances)  Time elapsed: 0.095 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+List with the instances of an specific provided store - Positive(List of instances)  Time elapsed: 0.098 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+List with the instances of an specific provided store - Positive(List of instances)  Time elapsed: 0.111 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+List with the instances of an specific provided store - Positive(List of instances)  Time elapsed: 0.217 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+List with the instances of an non-existent provided store - Negative(List of instances)  Time elapsed: 0.071 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+See the top five more listened songs(Top five songs)  Time elapsed: 0.097 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+

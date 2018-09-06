@@ -1,5 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Createsong","Create a new song","SUCCESS","2018-09-04T11:35:28.8562404-05:00[America/Bogota]","0.0","2.47"
 "Deletesong","Delete song","ERROR","2018-09-04T11:35:31.3233873-05:00[America/Bogota]","0.0","0.15"
 "Songs by genre","filter songs by genre - positive","ERROR","2018-09-04T11:35:22.9010837-05:00[America/Bogota]","0.0","4.59"
 "Songs by genre","filter songs by genre - negative","ERROR","2018-09-04T11:35:27.4998483-05:00[America/Bogota]","0.0","0.06"

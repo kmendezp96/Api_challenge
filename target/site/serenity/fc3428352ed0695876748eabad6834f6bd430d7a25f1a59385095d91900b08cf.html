@@ -53,7 +53,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -61,7 +61,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  0],
+                ['Errors',  1],
                 ['Compromised',  0]
             ]
         ], {
@@ -92,18 +92,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 / 3 tests passed' },
+                {label: '0 / 3 tests passed' },
                 {label: '0 / 3 tests pending'},
                 {label: '0 / 3 tests not executed'},
                 {label: '0 / 3 tests failed'},
-                {label: '0 / 3 errors'},
+                {label: '3 / 3 errors'},
                 {label: '0 / 3 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -111,7 +111,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 0],
+                ['Errors', 1],
                 ['Compromised', 0],
             ]
         ], {
@@ -143,11 +143,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 / 3 tests passed (1% of all test steps)' },
+                {label: '0 / 3 tests passed (0% of all test steps)' },
                 {label: '0 / 3 tests pending'},
                 {label: '0 / 3 tests not executed'},
                 {label: '0 / 3 tests failed (0% of all test steps)'},
-                {label: '0 / 3 errors (0% of all test steps)'}
+                {label: '3 / 3 errors (1% of all test steps)'}
             ]
         });
 
@@ -216,7 +216,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 10:12</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 11:35</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -237,9 +237,19 @@
 
                     <span class="test-count"> |
                         2
-                            <a href="818bfb8cd9a8d35acfd505d40647d1c6c8663e7b9b054f29c9f11ab7a5cfcac6.html">passed</a>
+                            <a href="fd4c67649c170e0264035d93a48e56721aeb7e6ea62c0249160a9d5e08dc7505.html">unsuccessful</a>
                         
+                    </span>(
+                    <span class="test-count">
+                        0
+                            <a href="99c6d8fe2ca62846f365c895878811da98a038d0f63ec10429b8b0f701c7498d.html">failed</a>
+                        ,
                     </span>
+                    <span class="test-count">
+                        2
+                            <a href="481bc6931a3310cf1d48623bf670e7c0bf502cff483d665b05999b7d7312515e.html">with errors</a>
+                        
+                    </span>)
 
                 
 
@@ -291,8 +301,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>3</td>
-            <td>3 (100%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -307,14 +317,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>3</td>
-            <td>3 (100%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">11 seconds</td>
+                <td colspan="5">5 seconds</td>
         </tr>
         </body>
     </table>
@@ -337,7 +347,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 5) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 4) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -370,8 +380,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>3</td>
-            <td>3 (100%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -386,14 +396,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>3</td>
-            <td>3 (100%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">11 seconds</td>
+                <td colspan="5">5 seconds</td>
         </tr>
         </body>
     </table>
@@ -437,50 +447,50 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
                                         <a href="9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.html" class="ellipsis"
-                                           title="filter songs by genre - positive ">
+                                           title="filter songs by genre - positive No class def found error: javax/xml/b...">
                                             filter songs by genre - positive&nbsp;(2  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">12</td>
+                                <td class="ERROR-text">10</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-09-04 10:10:31">10:10:31</td>
+                                <td class="ERROR-text" data-sort="2018-09-04 11:35:22">11:35:22</td>
 
-                                <td class="SUCCESS-text">10.48</td>
+                                <td class="ERROR-text">4.59</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
                                         <a href="14cb981bec6a2b4660a60bec376aab5aa86d0069f2245f9fc92d2605cfbd9137.html" class="ellipsis"
-                                           title="filter songs by genre - negative ">
+                                           title="filter songs by genre - negative No class def found error: Could not i...">
                                             filter songs by genre - negative
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">4</td>
+                                <td class="ERROR-text">3</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-09-04 10:10:41">10:10:41</td>
+                                <td class="ERROR-text" data-sort="2018-09-04 11:35:27">11:35:27</td>
 
-                                <td class="SUCCESS-text">0.63</td>
+                                <td class="ERROR-text">0.06</td>
                             </tr>
                         </tbody>
                     </table>

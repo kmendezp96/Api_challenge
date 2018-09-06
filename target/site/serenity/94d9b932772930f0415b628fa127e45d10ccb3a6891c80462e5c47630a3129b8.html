@@ -53,7 +53,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -61,7 +61,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  0],
+                ['Errors',  1],
                 ['Compromised',  0]
             ]
         ], {
@@ -92,18 +92,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 1 tests passed' },
+                {label: '0 / 1 tests passed' },
                 {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed'},
-                {label: '0 / 1 errors'},
+                {label: '1 / 1 errors'},
                 {label: '0 / 1 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -111,7 +111,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 0],
+                ['Errors', 1],
                 ['Compromised', 0],
             ]
         ], {
@@ -143,11 +143,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 1 tests passed (1% of all test steps)' },
+                {label: '0 / 1 tests passed (0% of all test steps)' },
                 {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed (0% of all test steps)'},
-                {label: '0 / 1 errors (0% of all test steps)'}
+                {label: '1 / 1 errors (1% of all test steps)'}
             ]
         });
 
@@ -216,7 +216,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 10:12</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 11:35</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -236,9 +236,19 @@
 
                     <span class="test-count"> |
                         1
-                            <a href="e05cad988c7c587ef25464cc5e9b4a7c53397c57a43b946d49f473912565f45b.html">passed</a>
+                            <a href="8fa8e85351e3e0ea4fd753cc00163a269214a7d4561623944d1e33abc05ebc76.html">unsuccessful</a>
                         
+                    </span>(
+                    <span class="test-count">
+                        0
+                            <a href="de5e94b98452234a6bc18b473b9f462649925b037802b176121815d0e60e918d.html">failed</a>
+                        ,
                     </span>
+                    <span class="test-count">
+                        1
+                            <a href="8b66deed44ca2aa1b5b9cdef9dd99967f4d3efdf9f2a75620a61a352c5ad5ace.html">with errors</a>
+                        
+                    </span>)
 
                 
 
@@ -290,8 +300,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -306,8 +316,8 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -336,7 +346,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 5) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 4) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -369,8 +379,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -385,8 +395,8 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -436,27 +446,27 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
                                         <a href="a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.html" class="ellipsis"
-                                           title="See the top five more listened songs ">
+                                           title="See the top five more listened songs No class def found error: Could not i...">
                                             See the top five more listened songs
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">5</td>
+                                <td class="ERROR-text">4</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-09-04 10:10:44">10:10:44</td>
+                                <td class="ERROR-text" data-sort="2018-09-04 11:35:28">11:35:28</td>
 
-                                <td class="SUCCESS-text">0.07</td>
+                                <td class="ERROR-text">0.04</td>
                             </tr>
                         </tbody>
                     </table>

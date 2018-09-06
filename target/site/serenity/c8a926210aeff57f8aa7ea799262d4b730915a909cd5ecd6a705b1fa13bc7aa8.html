@@ -53,7 +53,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.142857],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -61,7 +61,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  0.857143],
+                ['Errors',  1],
                 ['Compromised',  0]
             ]
         ], {
@@ -92,18 +92,18 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 / 21 tests passed' },
-                {label: '0 / 21 tests pending'},
-                {label: '0 / 21 tests not executed'},
-                {label: '0 / 21 tests failed'},
-                {label: '18 / 21 errors'},
-                {label: '0 / 21 compromised tests'}
+                {label: '0 / 18 tests passed' },
+                {label: '0 / 18 tests pending'},
+                {label: '0 / 18 tests not executed'},
+                {label: '0 / 18 tests failed'},
+                {label: '18 / 18 errors'},
+                {label: '0 / 18 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.126316],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
@@ -111,7 +111,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 0.873684],
+                ['Errors', 1],
                 ['Compromised', 0],
             ]
         ], {
@@ -143,11 +143,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 / 21 tests passed (0.126316% of all test steps)' },
-                {label: '0 / 21 tests pending'},
-                {label: '0 / 21 tests not executed'},
-                {label: '0 / 21 tests failed (0% of all test steps)'},
-                {label: '18 / 21 errors (0.873684% of all test steps)'}
+                {label: '0 / 18 tests passed (0% of all test steps)' },
+                {label: '0 / 18 tests pending'},
+                {label: '0 / 18 tests not executed'},
+                {label: '0 / 18 tests failed (0% of all test steps)'},
+                {label: '18 / 18 errors (1% of all test steps)'}
             ]
         });
 
@@ -190,9 +190,11 @@
 
 <div class="middlecontent">
 
+
 <div id="contenttop">
     <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
+                > <span class="truncate-60">Tests With Errors</span>
         </span>
     </div>
     <div class="rightbg"></div>
@@ -222,35 +224,27 @@
 <div class="middlb">
 <div class="table">
 
-<h2>Test Results: All Tests</h2>
+<h2>Tests With Errors</h2>
 <table class='overview'>
     <tr>
         <td width="375px" valign="top">
             <div class="test-count-summary">
-                <span class="test-count-title">11
-                    test scenarios (21 tests in all, including 16
+                <span class="test-count-title">10
+                    test scenarios (18 tests in all, including 13
                     rows of test data)</span>
                 <div>
 
                     <span class="test-count"> |
-                        1
-                            <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html">passed</a>
-                        
-                    </span>
-                    <span class="test-count"> |
                         10
-                            <a href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html">unsuccessful</a>
-                        
+unsuccessful
                     </span>(
                     <span class="test-count">
                         0
-                            <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html">failed</a>
-                        ,
+failed,
                     </span>
                     <span class="test-count">
                         10
-                            <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html">with errors</a>
-                        
+errors
                     </span>)
 
                 
@@ -258,7 +252,7 @@
 
 
                  |
-                    <a href="results.csv" title="Download CSV"> <i class="fa fa-download" title="Download CSV"></i></a>
+                    <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" title="Download CSV"> <i class="fa fa-download" title="Download CSV"></i></a>
                 </div>
             </div>
 
@@ -302,9 +296,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>21</td>
-            <td>3 (14%)</td>
-            <td>18 (86%)</td>
+            <td>18</td>
+            <td>0 (0%)</td>
+            <td>18 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -318,15 +312,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>21</td>
-            <td>3 (14%)</td>
-            <td>18 (86%)</td>
+            <td>18</td>
+            <td>0 (0%)</td>
+            <td>18 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">8 seconds</td>
+                <td colspan="5">6 seconds</td>
         </tr>
         </body>
     </table>
@@ -568,9 +562,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>21</td>
-            <td>3 (14%)</td>
-            <td>18 (86%)</td>
+            <td>18</td>
+            <td>0 (0%)</td>
+            <td>18 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -584,15 +578,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>21</td>
-            <td>3 (14%)</td>
-            <td>18 (86%)</td>
+            <td>18</td>
+            <td>0 (0%)</td>
+            <td>18 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">8 seconds</td>
+                <td colspan="5">6 seconds</td>
         </tr>
         </body>
     </table>
@@ -822,29 +816,6 @@
                         </tr>
                         </thead>
                         <tbody>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.html" class="ellipsis"
-                                           title="Create a new song ">
-                                            Create a new song&nbsp;(3  examples)
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">12</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2018-09-04 11:35:28">11:35:28</td>
-
-                                <td class="SUCCESS-text">2.47</td>
-                            </tr>
 
                             <tr class="test-ERROR">
                                 <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>

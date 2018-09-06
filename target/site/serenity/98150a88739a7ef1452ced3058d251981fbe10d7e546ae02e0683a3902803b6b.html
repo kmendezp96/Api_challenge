@@ -77,7 +77,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 10:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-09-2018 11:35</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -112,9 +112,9 @@ so that i can search an specific song
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="error-color">
                                     Filter songs by id - negative
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -148,11 +148,11 @@ so that i can search an specific song
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -162,84 +162,47 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block;">
-                            <span class="top-level-step">
-                                When I go to /song/"&lt;id&gt;" with an invalid id
-                            </span>
-                            </a>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.04s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                GET http://localhost:7070/kafka-music/song/%3Cid%3E
-                            </span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-3">
-                        REST Query
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='No class def found error: Could not initialize class io.restassured.RestAssured'>
+                                <pre>No class def found error: Could not initialize class io.restassured.RestAssured</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-1">
+                        View stack trace
                     </button>
-                </span>
+                </div>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-3" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
+                <div class="modal fade" id="stacktraceModal-1" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:7070/kafka-music/song/%3Cid%3E
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                java.lang.NoClassDefFoundError
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 404</p>
-                                    <p>Content Type: application/json</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Date: Tue, 04 Sep 2018 15:10:43 GMT<br>Cache-Control: must-revalidate,no-cache,no-store<br>Content-Type: text/html; charset=ISO-8859-1<br>Content-Length: 303<br>Server: Jetty(9.2.z-SNAPSHOT)</pre>
-                                <h5>Response Body</h5>
-                                    <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=ISO-8859-1&quot;/&gt;<br>    &lt;title&gt;Error 404 &lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h2&gt;HTTP ERROR: 404&lt;/h2&gt;<br>    &lt;p&gt;Problem accessing /kafka-music/song/%3Cid%3E. Reason:<br>&lt;/p&gt;<br>    &lt;pre&gt;    Not Found&lt;/pre&gt;<br>    &lt;hr/&gt;<br>    &lt;i&gt;<br>      &lt;small&gt;Powered by Jetty://&lt;/small&gt;<br>    &lt;/i&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
+                                    <h5>
+                                        <pre>Could not initialize class io.restassured.RestAssured</pre>
+                                    </h5>
+                                net.serenitybdd.rest.SerenityRest.given(SerenityRest.java
+                                    :211) <br>
+                                steps.ByIdSteps.iWantToSeeASongWithAnSpecificId(ByIdSteps.java
+                                    :24) <br>
+                                ✽.I want to see a song with an specific id(src/test/resources/features/songsById.feature
+                                    :18) <br>
                             </div>
+
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -248,22 +211,30 @@ so that i can search an specific song
                         </div>
                     </div>
                 </div>
-                                </span>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                When I go to /song/"&lt;id&gt;" with an invalid id
+                            </span>
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         <a name="2"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -273,13 +244,13 @@ so that i can search an specific song
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.05s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.01s</em></span></td>
                 </tr>
 
             </table>
