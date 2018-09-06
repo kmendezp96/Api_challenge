@@ -6,24 +6,27 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesHelper {
-    private FileReader reader;
-    private Properties properties;
+    private static Properties properties;
 
     public PropertiesHelper() throws IOException {
-        reader = new FileReader("src/test/resources/application.properties");
+        FileReader reader = new FileReader("src/test/resources/application.properties");
         properties = new Properties();
         properties.load(reader);
     }
 
-    public String getTopic(){
-        return properties.getProperty("TOPIC");
+    public static String getTopic(){
+        return properties.getProperty("topic");
     }
 
-    public String getBootstrapServer(){
-        return properties.getProperty("BOOTSTRAP_SERVERS");
+    public static String getBootstrapServer(){
+        return properties.getProperty("bootstrapServers");
     }
 
-    public String getSchemaRegistryUrl(){
+    public static String getSchemaRegistryUrl(){
         return properties.getProperty("schemaRegistryUrl");
+    }
+
+    public static String getSongUrl(){
+        return properties.getProperty("songUrl");
     }
 }

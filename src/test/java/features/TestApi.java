@@ -1,4 +1,4 @@
-package helpers;
+package features;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;

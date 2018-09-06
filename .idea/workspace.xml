@@ -2,83 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7323813d-45c0-424e-8375-5b21205941a2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/deleteSong.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/deleteSong.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/updateSong.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/updateSong.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/09da46a5b4e2e5b815abdb44b23699b6fe22a0da443c3ed03235b0fefe6a5647.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/09da46a5b4e2e5b815abdb44b23699b6fe22a0da443c3ed03235b0fefe6a5647.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/09da46a5b4e2e5b815abdb44b23699b6fe22a0da443c3ed03235b0fefe6a5647.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/09da46a5b4e2e5b815abdb44b23699b6fe22a0da443c3ed03235b0fefe6a5647.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/14cb981bec6a2b4660a60bec376aab5aa86d0069f2245f9fc92d2605cfbd9137.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/14cb981bec6a2b4660a60bec376aab5aa86d0069f2245f9fc92d2605cfbd9137.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/14cb981bec6a2b4660a60bec376aab5aa86d0069f2245f9fc92d2605cfbd9137.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/14cb981bec6a2b4660a60bec376aab5aa86d0069f2245f9fc92d2605cfbd9137.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/16169a4f52c3af1f5655913b15d5c59f537c98c20dcf34a8f3b56830873cd05c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/16169a4f52c3af1f5655913b15d5c59f537c98c20dcf34a8f3b56830873cd05c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/16169a4f52c3af1f5655913b15d5c59f537c98c20dcf34a8f3b56830873cd05c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/16169a4f52c3af1f5655913b15d5c59f537c98c20dcf34a8f3b56830873cd05c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/36cab49669d4201fdf03451ae4f15b4715ba710d4dbeeb2294a9e2d5776d60c9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/36cab49669d4201fdf03451ae4f15b4715ba710d4dbeeb2294a9e2d5776d60c9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3e9d53c1023cc411bf2539b6bd07272a98437c07612a805204fac48e61007d50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3e9d53c1023cc411bf2539b6bd07272a98437c07612a805204fac48e61007d50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3e9d53c1023cc411bf2539b6bd07272a98437c07612a805204fac48e61007d50.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3e9d53c1023cc411bf2539b6bd07272a98437c07612a805204fac48e61007d50.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4a8b7717a39f2c2efbf7703d21262e4bb32a250aede03ebb41ec7ba191dd759c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4a8b7717a39f2c2efbf7703d21262e4bb32a250aede03ebb41ec7ba191dd759c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4a8b7717a39f2c2efbf7703d21262e4bb32a250aede03ebb41ec7ba191dd759c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4a8b7717a39f2c2efbf7703d21262e4bb32a250aede03ebb41ec7ba191dd759c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4f8caface7a88bc9907b9062e31a590392943f594a4bccff5e48d8b00dfa60d4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4f8caface7a88bc9907b9062e31a590392943f594a4bccff5e48d8b00dfa60d4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4f8caface7a88bc9907b9062e31a590392943f594a4bccff5e48d8b00dfa60d4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4f8caface7a88bc9907b9062e31a590392943f594a4bccff5e48d8b00dfa60d4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/520231ca4be4494828a922bdacb2ce41379ef671ce217633c7500520df9efa14.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/520231ca4be4494828a922bdacb2ce41379ef671ce217633c7500520df9efa14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5cbd32a689f7d7cf7e20ddc52a50213c34341db0408518424185bf8ecd599429.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/674c68d048d81dedf0ff4bf59f89d2723fe51eae37c7e38f83ba70c6ac8c5928.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/68e8c1cd3e2b2d89bb3f9bc61a6735ccac163432dee8f3eee7eb44f8980b4b7a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7867380158d9f94e047502721b504c196da8aafe7c0951f8adb43322d1a5dc0c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7867380158d9f94e047502721b504c196da8aafe7c0951f8adb43322d1a5dc0c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7867380158d9f94e047502721b504c196da8aafe7c0951f8adb43322d1a5dc0c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7867380158d9f94e047502721b504c196da8aafe7c0951f8adb43322d1a5dc0c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7e7775650b11264f8aef14b01a167b0823a3eba44440c5420a03a896bc68c566.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7e7775650b11264f8aef14b01a167b0823a3eba44440c5420a03a896bc68c566.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7e7775650b11264f8aef14b01a167b0823a3eba44440c5420a03a896bc68c566.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7e7775650b11264f8aef14b01a167b0823a3eba44440c5420a03a896bc68c566.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/818bfb8cd9a8d35acfd505d40647d1c6c8663e7b9b054f29c9f11ab7a5cfcac6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8aa4680fb68de183f43994bf1e37cc9eef9ea14a86c0d303a9a34bb905d808d2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8aa4680fb68de183f43994bf1e37cc9eef9ea14a86c0d303a9a34bb905d808d2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8aa4680fb68de183f43994bf1e37cc9eef9ea14a86c0d303a9a34bb905d808d2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8aa4680fb68de183f43994bf1e37cc9eef9ea14a86c0d303a9a34bb905d808d2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8bb90fb23dcb7087a361770d464d347989bd19be5564a9ffdd93de63f8b94dea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8bb90fb23dcb7087a361770d464d347989bd19be5564a9ffdd93de63f8b94dea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/94d9b932772930f0415b628fa127e45d10ccb3a6891c80462e5c47630a3129b8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/94d9b932772930f0415b628fa127e45d10ccb3a6891c80462e5c47630a3129b8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/94d9b932772930f0415b628fa127e45d10ccb3a6891c80462e5c47630a3129b8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/94d9b932772930f0415b628fa127e45d10ccb3a6891c80462e5c47630a3129b8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/98150a88739a7ef1452ced3058d251981fbe10d7e546ae02e0683a3902803b6b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/98150a88739a7ef1452ced3058d251981fbe10d7e546ae02e0683a3902803b6b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/98150a88739a7ef1452ced3058d251981fbe10d7e546ae02e0683a3902803b6b.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/98150a88739a7ef1452ced3058d251981fbe10d7e546ae02e0683a3902803b6b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9b5638b7201f5e4358dc2838ceba7f65f013593e631869427d9501ce82d8a3a8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9b5638b7201f5e4358dc2838ceba7f65f013593e631869427d9501ce82d8a3a8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9b5638b7201f5e4358dc2838ceba7f65f013593e631869427d9501ce82d8a3a8.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9b5638b7201f5e4358dc2838ceba7f65f013593e631869427d9501ce82d8a3a8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-09da46a5b4e2e5b815abdb44b23699b6fe22a0da443c3ed03235b0fefe6a5647.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-09da46a5b4e2e5b815abdb44b23699b6fe22a0da443c3ed03235b0fefe6a5647.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-439918795f7109a26446b05af2d1d715e3f99703b9579c246e4af05519a9d433.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7867380158d9f94e047502721b504c196da8aafe7c0951f8adb43322d1a5dc0c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7867380158d9f94e047502721b504c196da8aafe7c0951f8adb43322d1a5dc0c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7e7775650b11264f8aef14b01a167b0823a3eba44440c5420a03a896bc68c566.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7e7775650b11264f8aef14b01a167b0823a3eba44440c5420a03a896bc68c566.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9a330a29c7039bfb5f57974bc6bd28674904cedaed30c21aaacd4249d15941b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9b5638b7201f5e4358dc2838ceba7f65f013593e631869427d9501ce82d8a3a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9b5638b7201f5e4358dc2838ceba7f65f013593e631869427d9501ce82d8a3a8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a5653344fdc19fe3c614ca9948ea288b313912135261ecea147ec1d636fc58e3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b233f0cbd135dd54f5568ce54d36a00df1e5db8a862481b1c22f700d9109f014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/beaaed3cf1fa5d796a3311fc2e39826ac6b6e32fff5d273012e7be93ad30676a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/beaaed3cf1fa5d796a3311fc2e39826ac6b6e32fff5d273012e7be93ad30676a.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/beaaed3cf1fa5d796a3311fc2e39826ac6b6e32fff5d273012e7be93ad30676a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/beaaed3cf1fa5d796a3311fc2e39826ac6b6e32fff5d273012e7be93ad30676a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c4cc6336480132b14dc5966ca6442b0c74a30750b6902548c03dc27531522e7d.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e05a6aa26fd18d9e19d40b093a0ac731bf3d22d7cf3232f8f8881644a3f5bb73.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e05cad988c7c587ef25464cc5e9b4a7c53397c57a43b946d49f473912565f45b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e308885e339a5958053e67d089466806f32b154316803ab1db1f18b16bb2db7f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e308885e339a5958053e67d089466806f32b154316803ab1db1f18b16bb2db7f.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e308885e339a5958053e67d089466806f32b154316803ab1db1f18b16bb2db7f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e308885e339a5958053e67d089466806f32b154316803ab1db1f18b16bb2db7f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb97a25408c60969a2271fc84b07de73ba547e32566b774657b33588c9d3067c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/eb97a25408c60969a2271fc84b07de73ba547e32566b774657b33588c9d3067c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eed24dd08261993b3d9c32984c38946ff885cd5228989a6cdbe14518f1b7faae.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/eed24dd08261993b3d9c32984c38946ff885cd5228989a6cdbe14518f1b7faae.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eed24dd08261993b3d9c32984c38946ff885cd5228989a6cdbe14518f1b7faae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/eed24dd08261993b3d9c32984c38946ff885cd5228989a6cdbe14518f1b7faae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fc3428352ed0695876748eabad6834f6bd430d7a25f1a59385095d91900b08cf.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fc3428352ed0695876748eabad6834f6bd430d7a25f1a59385095d91900b08cf.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fc3428352ed0695876748eabad6834f6bd430d7a25f1a59385095d91900b08cf.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fc3428352ed0695876748eabad6834f6bd430d7a25f1a59385095d91900b08cf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/deleteSong.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/deleteSong.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/updateSong.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/updateSong.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestsStoredInstances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestsStoredInstances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestsTopFiveSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestsTopFiveSongs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/TestSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TestSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createSong.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createSong.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,17 +28,66 @@
       <file leaf-file-name="CreateSongSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SongSerializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kafka/SongSerializer.java">
+      <file leaf-file-name="createSong.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/createSong.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateSong.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/updateSong.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchSongSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,32 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteSongSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProducerSong.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionKafka.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -162,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/features/createSong.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/TestSong.java" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/TestApi.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
@@ -172,6 +133,14 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/updateSong.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kafka/SongSerializer.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/createSong.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java" />
       </list>
     </option>
   </component>
@@ -183,17 +152,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +195,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,6 +212,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Api_challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api_challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Api_challenge" type="b2602c69:ProjectViewProjectNode" />
@@ -254,12 +240,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://C:/Users/kmendez/IdeaProjects/Api_challenge/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="features" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,9 +267,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Update song">
+  <component name="RunManager" selected="Cucumber java.Scenario: Create a new song">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Scenario: Create a new song" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createSong.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Api_challenge" />
+      <option name="NAME_FILTER" value="^Create a new song$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Create a new song$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create a new song" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Scenario: Update song" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/updateSong.feature" />
@@ -296,14 +305,14 @@
       <module name="Api_challenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helpers.*" />
+          <option name="PATTERN" value="features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="helpers" />
-      <option name="MAIN_CLASS_NAME" value="helpers.TestApi" />
+      <option name="PACKAGE_NAME" value="features" />
+      <option name="MAIN_CLASS_NAME" value="features.TestApi" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -319,14 +328,14 @@
       <module name="Api_challenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="helpers.*" />
+          <option name="PATTERN" value="features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="helpers" />
-      <option name="MAIN_CLASS_NAME" value="helpers.TestSong" />
+      <option name="PACKAGE_NAME" value="features" />
+      <option name="MAIN_CLASS_NAME" value="features.TestSong" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -380,9 +389,11 @@
       <item itemvalue="JUnit.TestSong" />
       <item itemvalue="JUnit.TestApi" />
       <item itemvalue="Cucumber java.Scenario: Update song" />
+      <item itemvalue="Cucumber java.Scenario: Create a new song" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Create a new song" />
         <item itemvalue="Cucumber java.Scenario: Update song" />
         <item itemvalue="JUnit.TestSong" />
         <item itemvalue="JUnit.TestApi" />
@@ -403,15 +414,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSong - 2018.09.04 at 09h 35m 43s.xml">
-      <configuration name="TestSong" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSong - 2018.09.04 at 09h 39m 38s.xml">
-      <configuration name="TestSong" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSong - 2018.09.04 at 09h 42m 31s.xml">
-      <configuration name="TestSong" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestApi - 2018.09.04 at 09h 42m 59s.xml">
       <configuration name="TestApi" configurationId="JUnit" />
     </history-entry>
@@ -433,38 +435,47 @@
     <history-entry file="Scenario__Update_song - 2018.09.04 at 11h 39m 39s.xml">
       <configuration name="Scenario: Update song" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Create_a_new_song - 2018.09.06 at 15h 28m 15s.xml">
+      <configuration name="Scenario: Create a new song" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Update_song - 2018.09.06 at 15h 29m 28s.xml">
+      <configuration name="Scenario: Update song" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Create_a_new_song - 2018.09.06 at 15h 40m 23s.xml">
+      <configuration name="Scenario: Create a new song" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="55" y="-7" width="1233" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="simpleUML" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281787" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25404945" />
+      <window_info anchor="right" id="UML design tool window" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="simpleUML" order="2" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="UML design tool window" order="3" />
+      <window_info anchor="right" id="Code Iris" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Code Iris" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
@@ -481,6 +492,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafka/SongSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/UpdateSongSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
@@ -493,16 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -510,13 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/kafka/SongSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -594,9 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/createSong.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/songsByGenre.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -608,20 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -639,51 +652,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/TestApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/TestApi.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/TestSong.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/updateSong.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/TestSong.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ProducerSong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kafka/SongSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-102">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DeleteSongSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/kafka/ConnectionKafka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/PropertiesHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/CreateSongSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/createSong.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/SearchSongSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Api_challenge</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
