@@ -14,12 +14,12 @@ public class JsonHelper {
         return new JsonParser().parse(jsonString).getAsJsonObject();
     }
 
-    public JsonArray getJsonObjectListFromResponse(Response response) {
+    public static JsonArray getJsonObjectListFromResponse(Response response) {
         String jsonString = response.then().extract().response().body().print();
         return new JsonParser().parse(jsonString).getAsJsonArray();
     }
 
-    public static String getInstancesJson(){
+    public static String getInstancesJson() {
         String jsonString = String.format("\"host\":\"%s\",\"port\":%s,\"storeNames\":[%s]",
                 PropertiesHelper.getHost(),
                 PropertiesHelper.getPort(),

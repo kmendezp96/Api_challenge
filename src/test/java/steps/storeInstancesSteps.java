@@ -3,7 +3,6 @@ package steps;
 import cucumber.api.java.en.Given;
 import helpers.JsonHelper;
 import helpers.PropertiesHelper;
-import io.restassured.response.Response;
 
 import static net.serenitybdd.rest.SerenityRest.given;
 

@@ -1,7 +1,0 @@
-public static String getInstancesJson(){
-        String jsonString = String.format("\"host\":\"%s\",\"port\":%s,\"storeNames\":[%s]",
-                PropertiesHelper.getHost(),
-                PropertiesHelper.getPort(),
-                PropertiesHelper.getStoreNames());
-        return jsonString;
-    }

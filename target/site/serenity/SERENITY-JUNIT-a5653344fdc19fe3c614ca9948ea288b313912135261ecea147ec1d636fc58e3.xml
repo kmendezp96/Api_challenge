@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Top five songs" skipped="0" tests="1" time="0.04" timestamp="2018-09-04T11:35:28.367830300-05:00[America/Bogota]"><testcase name="See the top five more listened songs"><error message="Could not initialize class io.restassured.RestAssured" type="java.lang.NoClassDefFoundError">Could not initialize class io.restassured.RestAssured</error><system-err>Could not initialize class io.restassured.RestAssured&#13;
-net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
-steps.TopFiveSteps.iWantToSeeTheTopFiveSongs(TopFiveSteps.java:23)&#13;
-✽.I want to see the top five songs(src/test/resources/features/topFiveSongs.feature:7)&#13;
-</system-err></testcase></testsuite>

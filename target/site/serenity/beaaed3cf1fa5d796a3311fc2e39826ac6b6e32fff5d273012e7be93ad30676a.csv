@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"List of instances","List with all the instances - Positive","ERROR","2018-09-04T11:35:27.9788353-05:00[America/Bogota]","0.0","0.02"
-"List of instances","List with the instances of an specific provided store - Positive","ERROR","2018-09-04T11:35:27.9988361-05:00[America/Bogota]","0.0","0.35"
-"List of instances","List with the instances of an non-existent provided store - Negative","ERROR","2018-09-04T11:35:28.3508285-05:00[America/Bogota]","0.0","0.01"

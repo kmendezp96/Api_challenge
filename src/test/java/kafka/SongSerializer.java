@@ -9,7 +9,7 @@ import java.util.Map;
 
 import static io.confluent.kafka.serializers.KafkaAvroDeserializerConfig.SPECIFIC_AVRO_READER_CONFIG;
 
-public class SongSerializer  <T extends org.apache.avro.specific.SpecificRecord> implements Serializer<T> {
+public class SongSerializer<T extends org.apache.avro.specific.SpecificRecord> implements Serializer<T> {
 
     KafkaAvroSerializer inner;
 

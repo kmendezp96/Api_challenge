@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesHelper {
+
     private static Properties properties;
 
     public PropertiesHelper() throws IOException {
@@ -14,35 +15,44 @@ public class PropertiesHelper {
         properties.load(reader);
     }
 
-    public static String getTopic(){
+    public static String getTopic() {
         return properties.getProperty("topic");
     }
 
-    public static String getBootstrapServer(){
+    public static String getBootstrapServer() {
         return properties.getProperty("bootstrapServers");
     }
 
-    public static String getSchemaRegistryUrl(){
+    public static String getSchemaRegistryUrl() {
         return properties.getProperty("schemaRegistryUrl");
     }
 
-    public static String getSongUrl(){
+    public static String getSongUrl() {
         return properties.getProperty("songUrl");
     }
 
-    public static String getInstancesUrl(){
+    public static String getInstancesUrl() {
         return properties.getProperty("instancesUrl");
     }
 
-    public static String getHost(){
+    static String getHost() {
         return properties.getProperty("host");
     }
 
-    public static String getPort(){
+    static String getPort() {
         return properties.getProperty("port");
     }
 
-    public static String getStoreNames(){
+    static String getStoreNames() {
         return properties.getProperty("storeNames");
     }
+
+    public static String getByGenreUrl() {
+        return properties.getProperty("byGenreUrl");
+    }
+
+    public static String getTopUrl() {
+        return properties.getProperty("topUrl");
+    }
+
 }
