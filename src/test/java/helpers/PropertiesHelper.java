@@ -29,4 +29,20 @@ public class PropertiesHelper {
     public static String getSongUrl(){
         return properties.getProperty("songUrl");
     }
+
+    public static String getInstancesUrl(){
+        return properties.getProperty("instancesUrl");
+    }
+
+    public static String getHost(){
+        return properties.getProperty("host");
+    }
+
+    public static String getPort(){
+        return properties.getProperty("port");
+    }
+
+    public static String getStoreNames(){
+        return properties.getProperty("storeNames");
+    }
 }

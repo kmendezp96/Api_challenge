@@ -4,7 +4,7 @@ Feature: Songs by id
   so that i can search an specific song
 
   Scenario Outline: Filter songs by id - positive
-    Given I want to see a song with an specific id
+    Given I can see the list of the instances that the provided store has
     When I go to /song/"<id>"
     Then the system response with an "200" status code
     Then I see a json with the specified song
@@ -14,7 +14,7 @@ Feature: Songs by id
     | 4  |
     | 12 |
 
-  Scenario: Filter songs by id - negative
-    Given I want to see a song with an specific id
-    When I go to /song/"<id>" with an invalid id
+  Scenario: Filter songs by id invalid id - negative
+    Given I can see the list of the instances that the provided store has
+    When I go to /song/"<id>"
     Then the system response with an "404" status code
